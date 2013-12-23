@@ -1,0 +1,9 @@
+<% form_for :picture, :url => {:action => :delete_category_picture, :id => @picture, :category_id => @category } do |form| %>
+	<div class="dialog">
+	<p class='note'>Click "Confirm" to permanently remove picture: <%=h @picture.filename  %> or 'Cancel' to go back. 
+	</div>
+	<div id='nav'>
+	<%= button_to 'Confirm','', :confirm => 'This action cannot be undone. Are you sure you want to continue ?', :class => :submit %> 
+	<p align='right'><%= link_to 'Cancel', {:action => :edit_category_picture, :id => @picture } %></p>
+	</div>
+<% end %>

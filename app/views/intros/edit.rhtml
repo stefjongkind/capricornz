@@ -1,0 +1,15 @@
+<h1>Editing intro</h1>
+
+<%= error_messages_for :intro %>
+
+<% form_for(@intro) do |f| %>
+  <p>
+     <%= f.text_area :description, { :size => '60x15'} %>
+  </p>
+
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @intro %> |
+<%= link_to 'Back', :controller => :admin, :action => :menu %>

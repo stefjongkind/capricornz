@@ -1,0 +1,6 @@
+div.promo_text do
+  h1 {"Contact Rita and Stef"}
+  p {"- Email: #{link_to 'stefjongkind@gmail.com', 'mailto:stefjongkind@gmail.com?subject=Birds Clearing Property Sale Enquiry'}"}
+  p {"- PO Box 226, Takaka 7142"}
+  p {"- Phone: 0064 35257055"}
+end

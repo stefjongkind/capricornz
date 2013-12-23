@@ -1,0 +1,8 @@
+<div class='news'>
+	<h1>What's New?</h1>
+	<h2><%=h @news_item.title %></h2>
+	<p>
+		<%=h @news_item.item  %><br>
+		<span class='date_posted'>Posted: <%=h @news_item.created_on.to_s(:long)  %></span>
+	</p>
+</div>

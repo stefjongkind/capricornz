@@ -1,0 +1,1864 @@
+# Webalizer V2.01-10 Incremental Data - 01/14/2013 03:00:45
+2013 1 14 3 0 45
+1837 1376 391 196 26 56 19838668 808 563 0
+7 1 235 1 14
+127 94 1477058 44 59 45
+119 98 1708832 53 48 44
+134 100 1315756 39 78 46
+123 117 1676275 41 69 42
+73 66 825980 42 46 42
+71 65 551994 38 48 45
+322 170 3015160 39 59 44
+92 61 683605 31 56 42
+101 94 1036256 44 51 43
+243 132 1975206 47 120 42
+201 188 2913297 51 80 44
+152 118 2139680 40 46 40
+67 62 480602 34 39 36
+12 11 38967 7 9 8
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+75 50 319090 40
+119 80 406876 96
+64 51 379459 51
+52 47 692690 13
+52 48 425197 34
+73 71 1207959 21
+64 36 727115 29
+68 62 973677 32
+77 76 669112 54
+27 26 139284 13
+43 40 325323 32
+38 35 480561 12
+54 39 822167 23
+48 44 369285 28
+93 93 1509335 43
+59 43 541059 13
+104 85 1418126 36
+51 34 928253 16
+69 27 315362 54
+327 176 3787342 34
+50 48 487789 31
+45 39 802823 10
+115 98 1822361 39
+70 28 288423 54
+0
+0
+0
+1376
+0
+0
+0
+0
+0
+6
+0
+0
+0
+0
+257
+0
+0
+9
+0
+0
+0
+189
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/images/sale/carousel/strip_19_large.jpg
+1 2 4025961472 192842 0 0
+/images/background_birds_clearing.gif
+1 5 80 1250875 0 0
+/pictures/0000/0087/winter_view_bay_thumb.gif
+1 1 1633824364 37607 0 0
+/pictures/0000/0235/niwa_alex.jpg
+1 1 842084910 0 0 0
+/pictures/0000/0043/our_view_thumb.JPG
+1 3 0 75988 0 0
+/
+0 437 0 1356992 420 212
+/pictures/0000/0109/raffi_pose_thumb.jpg
+1 1 0 13144 0 0
+/pictures/0000/0183/rox_niwa_towball.gif
+1 1 0 75835 0 0
+/public/show_category/10
+0 25 0 177875 17 15
+/public/show_category/11
+0 22 0 156382 7 8
+/public/show_category/12
+0 21 0 146584 13 4
+/pictures/0000/0047/mud_walls_and_roof_thumb.JPG
+1 4 0 133164 0 0
+/public/show_category/13
+0 14 0 78905 7 3
+/public/show_category/15
+0 10 0 50710 4 1
+/pictures/0000/0133/dippo_thumb.jpg
+1 1 0 18899 0 0
+/public/show_category/17
+0 8 0 39977 2 0
+/public/show_category/18
+0 27 0 157518 20 13
+/pictures/0000/0125/mount_pupka_thumb.jpg
+1 1 0 28647 0 0
+/pictures/0000/0191/stef_seasick_thumb.jpg
+1 2 0 31836 0 0
+/pictures/0000/0157/ch_raffi_pose.gif
+1 2 0 142836 0 0
+/javascripts/all.js
+0 33 0 0 0 0
+/stylesheets/waiateara.css
+0 36 0 174384 0 0
+/pictures/0000/0235/niwa_alex_thumb.jpg
+1 1 0 28033 0 0
+/pictures/0000/0049/kitchen_yurt_wall.JPG
+1 1 0 89870 0 0
+/pictures/0000/0241/stefopdemower.jpg
+1 1 0 0 0 0
+/pictures/0000/0171/cs_kids_inside.gif
+1 1 0 114480 0 0
+/pictures/0000/0127/siti_dippo_thumb.jpg
+1 1 0 13501 0 0
+/pictures/0000/0035/birds_clearing_thumb.jpg
+1 2 0 63050 0 0
+/pictures/0000/0225/skeleton_2_thumb.jpg
+1 1 0 18586 0 0
+/pictures/0000/0047/mud_walls_and_roof.JPG
+1 1 0 85872 0 0
+/pictures/0000/0251/hardenberg_thumb.jpg
+1 1 0 17319 0 0
+/pictures/0000/0029/rafters_in.JPG
+1 1 0 77490 0 0
+/pictures/0000/0045/yurts_thumb.JPG
+1 3 0 62988 0 0
+/sale
+0 2 0 16744 1 0
+/pictures/0000/0139/raffi_stef_archery_thumb.gif
+1 2 0 93092 0 0
+/pictures/0000/0173/cs_family_inside_thumb.gif
+1 1 0 36880 0 0
+/pictures/0000/0039/lounge_thumb.jpg
+1 3 0 22246 0 0
+/images/sale/carousel/strip_13.jpg
+1 1 0 0 0 0
+/pictures/0000/0065/raffi-pilot_jacket_thumb.jpg
+1 1 0 40481 0 0
+/pictures/0000/0085/winter_from_deck_thumb.gif
+1 1 0 38103 0 0
+/images/loading.gif
+1 8 0 22136 0 0
+/pictures/0000/0119/niwa_highway_72_arms_wide_thumb.jpg
+1 2 0 16026 0 0
+/pictures/0000/0089/winter_close_up_clifton_thumb.gif
+1 1 0 46038 0 0
+/pictures/0000/0213/garden_bed.jpg
+1 1 0 82169 0 0
+/pictures/0000/0177/roxe_raffi_siti.gif
+1 1 0 170215 0 0
+/pictures/0000/0167/cs_entrance_thumb.gif
+1 1 0 38889 0 0
+/pictures/0000/0179/rox_niwa_building_thumb.gif
+1 1 0 23126 0 0
+/pictures/0000/0259/siti_broken_arm.jpg
+1 1 0 42657 0 0
+/pictures/0000/0179/rox_niwa_building.gif
+1 1 0 82394 0 0
+/images/sale/tab.gif
+1 5 925773880 1684 0 0
+/pictures/0000/0059/toilet_thumb.jpg
+1 4 1684631667 55554 0 0
+/pictures/0000/0069/raffi_upside_down_in_tree_thumb.jpg
+1 1 0 49880 0 0
+/pictures/0000/0131/stef_niwa_raffi_dippo_thumb.jpg
+1 1 0 16735 0 0
+/images/sale/carousel/strip_23.jpg
+1 2 758200109 36677 0 0
+/images/sale/carousel/strip_8_large.jpg
+1 1 7171939 0 0 0
+/images/sale/carousel/strip_30_large.jpg
+1 2 0 178968 0 0
+/images/sale/carousel/strip_22_large.jpg
+1 2 0 164984 0 0
+/pictures/0000/0027/claudius_center_ring_thumb.jpg
+1 4 0 118968 0 0
+/pictures/0000/0067/raffi_in_tree_thumb.jpg
+1 2 0 98908 0 0
+/pictures/0000/0161/stef_cooking.gif
+1 1 0 84538 0 0
+/images/sale/carousel/strip_22.jpg
+1 2 0 76294 0 0
+/images/closelabel.gif
+1 8 0 7832 0 0
+/pictures/0000/0177/roxe_raffi_siti_thumb.gif
+1 1 0 48648 0 0
+/javascripts/controls.js
+0 34 0 669964 0 0
+/images/sale/carousel/strip_17_large.jpg
+1 1 0 89833 0 0
+/pictures/0000/0149/ch_siti_rock_thumb.gif
+1 3 0 103476 0 0
+/pictures/0000/0185/siti_niwa_ferry_thumb.jpg
+1 3 0 48866 0 0
+/pictures/0000/0049/kitchen_yurt_wall_thumb.JPG
+1 4 0 135996 0 0
+/pictures/0000/0239/alex_smoking_thumb.jpg
+1 3 0 70863 0 0
+/javascripts/application.js
+0 34 0 2812 0 0
+/pictures/0000/0183/rox_niwa_towball_thumb.gif
+1 1 0 20887 0 0
+/images/sale/carousel/strip_28_large.jpg
+1 1 0 101614 0 0
+/pictures/0000/0161/stef_cooking_thumb.gif
+1 1 0 24375 0 0
+/pictures/0000/0031/frame_and_rafters_thumb.JPG
+1 4 0 149740 0 0
+/pictures/0000/0151/ch_niwa_rock_thumb.gif
+1 2 0 40468 0 0
+/images/sale/carousel/strip_21.jpg
+1 3 0 156333 0 0
+/images/sale/carousel/strip_32.jpg
+1 1 0 45864 0 0
+/pictures/0000/0143/siti_shooting_thumb.gif
+1 3 0 111291 0 0
+/pictures/0000/0175/cs_opening_end_thumb.gif
+1 1 0 26359 0 0
+/pictures/0000/0211/niwa_potter_thumb.jpg
+1 2 0 21414 0 0
+/pictures/0000/0227/east_ply_thumb.jpg
+1 2 0 27234 0 0
+/stylesheets/prototype-ui.css
+0 2 0 6326 0 0
+/public
+0 5 0 16310 4 2
+/images/sale/carousel/strip_20.jpg
+1 1 0 35635 0 0
+/pictures/0000/0237/alex_floor_thumb.jpg
+1 1 0 28956 0 0
+/images/sale/carousel/strip_31.jpg
+1 2 0 72038 0 0
+/pictures/0000/0159/ch_raffi_thumb.gif
+1 3 0 53523 0 0
+/robots.txt
+0 221 0 21879 0 0
+/stylesheets/house.css
+0 2 0 7364 0 0
+/pictures/0000/0097/yurt_frame_roof_on_tripod_thumb.gif
+1 7 0 273553 0 0
+/javascripts/popup.js
+0 32 0 250291 0 0
+/pictures/0000/0121/siti_highway_72_finish_thumb.jpg
+1 2 0 14958 0 0
+/pictures/0000/0233/niwa_murco_thumb.jpg
+1 1 0 26192 0 0
+/pictures/0000/0169/cs_inside_thumb.gif
+1 1 0 39073 0 0
+/pictures/0000/0103/winter_tree_fern_thumb.gif
+1 1 0 50092 0 0
+/images/sale/collage_1.jpg
+1 1 0 0 0 0
+/pictures/0000/0045/yurts.JPG
+1 2 0 165324 0 0
+/javascripts/lightbox.js
+0 56 0 434853 0 0
+/pictures/0000/0093/winter_light_on_trees_thumb.gif
+1 1 0 39241 0 0
+/pictures/0000/0157/ch_raffi_pose_thumb.gif
+1 3 1868770933 57558 0 0
+/pictures/0000/0163/delica_camping_thumb.gif
+1 1 1358076479 37098 0 0
+/javascripts/dragdrop.js
+0 34 20547 599146 0 0
+/pictures/0000/0145/raffi_shooting_thumb.gif
+1 3 1853058350 115953 0 0
+/images/sale/carousel/strip_30.jpg
+1 1 775238958 41648 0 0
+/pictures/0000/0083/brady.jpg
+1 1 0 26359 0 0
+/pictures/0000/0071/claudius_thumb.jpg
+1 3 0 57387 0 0
+/pictures/0000/0109/raffi_pose.jpg
+1 1 1819044199 0 0 0
+/favicon.ico
+0 3 0 0 0 0
+/pictures/0000/0201/misty_rays_leaf_thumb.jpg
+1 1 0 15338 0 0
+/pictures/0000/0081/ben_thumb.jpg
+1 3 0 44469 0 0
+/pictures/0000/0213/garden_bed_thumb.jpg
+1 2 0 48756 0 0
+/images/waiata_banner.gif
+1 23 0 728670 0 0
+/images/prevlabel.gif
+1 1 0 1264 0 0
+/pictures/0000/0247/grasmaaien_thumb.jpg
+1 1 0 22290 0 0
+/pictures/0000/0257/stef_zeeland_thumb.jpg
+1 1 0 14303 0 0
+/images/sale/carousel/strip_6_large.jpg
+1 1 0 0 0 0
+/pictures/0000/0051/raffi_hanging_from_tree_thumb.jpg
+1 1 0 51125 0 0
+/pictures/0000/0241/stefopdemower_thumb.jpg
+1 1 0 19572 0 0
+/images/sale/carousel/strip_20_large.jpg
+1 1 0 71717 0 0
+/images/sale/tab_right.gif
+1 3 0 1188 0 0
+/pictures/0000/0135/raffi_highway_72.jpg
+1 1 0 70949 0 0
+/pictures/0000/0025/big_yurt_frame_and_doors_thumb.JPG
+1 4 0 124348 0 0
+/images/sale/carousel/strip_31_large.jpg
+1 2 0 154468 0 0
+/pictures/0000/0209/above_the_clouds_thumb.jpg
+1 1 0 15264 0 0
+/pictures/0000/0223/skeleton_thumb.jpg
+1 1 0 23724 0 0
+/pictures/0000/0083/brady_thumb.jpg
+1 3 0 40632 0 0
+/images/sale/carousel/strip_23_large.jpg
+1 1 0 75633 0 0
+/pictures/0000/0181/roxe_siti_pole_thumb.gif
+1 1 0 31088 0 0
+/pictures/0000/0023/stef_b-w.jpg
+1 1 0 33167 0 0
+/images/sale/carousel/strip_26_large.jpg
+1 1 0 0 0 0
+/public/show_category/1
+0 32 0 189566 13 11
+/public/show_category/6
+0 19 0 81224 11 3
+/public/show_category/8
+0 9 0 55656 3 2
+/pictures/0000/0167/cs_entrance.gif
+1 1 0 120801 0 0
+/public/show_category/9
+0 11 0 68145 5 2
+/pictures/0000/0101/winter_ranges_thumb.gif
+1 1 0 32099 0 0
+/pictures/0000/0111/raffi_thumbs_up_thumb.jpg
+1 3 0 13390 0 0
+/images/sale/carousel/strip_18_large.jpg
+1 1 0 86168 0 0
+/pictures/0000/0079/bert_thumb.jpg
+1 3 0 145512 0 0
+/pictures/0000/0113/siti_highway_72_thumb.jpg
+1 3 0 56475 0 0
+/pictures/0000/0129/raffi_dippo_thumb.jpg
+1 1 0 26393 0 0
+/pictures/0000/0187/raffi_ferry_thumb.jpg
+1 2 0 48078 0 0
+/pictures/0000/0203/misty_rays_2_thumb.jpg
+1 2 0 29646 0 0
+/pictures/0000/0091/winter_car_parking_thumb.gif
+1 1 0 27660 0 0
+/pictures/0000/0027/claudius_center_ring.jpg
+1 4 0 206181 0 0
+/pictures/0000/0105/road_to_mt_hutt_thumb.jpg
+1 3 0 37648 0 0
+/javascripts/effects.js
+0 34 0 753745 0 0
+/sale/page_2
+0 3 0 26409 2 1
+/pictures/0000/0245/koffiedrinken_thumb.jpg
+1 1 0 24157 0 0
+/pictures/0000/0095/winter_bush_trail_thumb.gif
+1 1 0 49797 0 0
+/pictures/0000/0077/grant_thumb.jpg
+1 3 775368754 62418 0 0
+/pictures/0000/0063/rita_green_thumb.jpg
+1 1 0 42192 0 0
+/pictures/0000/0057/house_east_entry_thumb.jpg
+1 3 774910257 157356 0 0
+/pictures/0000/0205/misty_rays_3_thumb.jpg
+1 2 1886614884 28252 0 0
+/pictures/0000/0075/laura_in_the_mud_thumb.jpg
+1 3 1633824364 88458 0 0
+/pictures/0000/0041/washing_thumb.jpg
+1 2 0 57304 0 0
+/pictures/0000/0141/raffi_siti_watching_thumb.gif
+1 3 0 137178 0 0
+/pictures/0000/0117/niwa_highway_72_thumb.jpg
+1 2 0 8786 0 0
+/pictures/0000/0229/west_ply_thumb.jpg
+1 2 0 23526 0 0
+/pictures/0000/0207/house_in_mist_thumb.jpg
+1 2 0 39682 0 0
+/pictures/0000/0259/siti_broken_arm_thumb.jpg
+1 2 0 27242 0 0
+/pictures/0000/0193/rita_siti_te_papa_thumb.jpg
+1 3 0 41326 0 0
+/images/sale/carousel/strip_19.jpg
+1 1 0 47417 0 0
+/pictures/0000/0197/raffi_siti_beehive_thumb.jpg
+1 2 0 52022 0 0
+/stylesheets/lightbox.css
+0 40 0 41200 0 0
+/pictures/0000/0199/niwa_beehive_skateboard_thumb.jpg
+1 3 0 29277 0 0
+/images/sale/carousel/strip_18.jpg
+1 2 0 85250 0 0
+/pictures/0000/0163/delica_camping.gif
+1 2 0 247708 0 0
+/pictures/0000/0123/niwa_siti_enzo_on_top_thumb.jpg
+1 1 0 25596 0 0
+/pictures/0000/0099/birds_clearing_road_thumb.gif
+1 1 0 34077 0 0
+/pictures/0000/0029/rafters_in_thumb.JPG
+1 4 0 124304 0 0
+/pictures/0000/0073/yann_and_toni_thumb.jpg
+1 3 0 75747 0 0
+/pictures/0000/0147/ch_raffi_siti_thumb.gif
+1 2 0 65706 0 0
+/pictures/0000/0133/dippo.jpg
+1 1 0 61261 0 0
+/icons/apache_pb.gif
+1 1 0 0 0 0
+/pictures/0000/0255/opa_oma_scholten_thumb.jpg
+1 2 0 17540 0 0
+/pictures/0000/0249/sailing_thumb.jpg
+1 1 0 16682 0 0
+/pictures/0000/0189/rita_coffee_ferry_thumb.jpg
+1 2 0 49334 0 0
+/pictures/0000/0195/niwa_street_skateboard_thumb.jpg
+1 3 0 29319 0 0
+/pictures/0000/0231/south_ply_thumb.jpg
+1 1 0 14483 0 0
+/pictures/0000/0053/siti_niwa_at_the_point.jpg
+1 1 0 31250 0 0
+/stylesheets/popup.css
+0 38 0 14789 0 0
+/images/sale/carousel/strip_17.jpg
+1 2 0 92830 0 0
+/images/sale/carousel/strip_21_large.jpg
+1 2 0 226060 0 0
+/images/sale/carousel/strip_28.jpg
+1 1 0 50207 0 0
+/images/waiata_icon.png
+1 6 0 9342 0 0
+/images/sale/carousel/strip_32_large.jpg
+1 2 0 196994 0 0
+/javascripts/prototype.js
+0 57 0 2505495 0 0
+/pictures/0000/0021/niwa_growl.jpg
+1 1 0 21271 0 0
+/pictures/0000/0115/niwa_on_broadway_thumb.jpg
+1 2 0 8007 0 0
+/pictures/0000/0253/leiden_thumb.jpg
+1 2 0 22545 0 0
+/pictures/0000/0261/rain_cloud_thumb.jpg
+1 1 0 10017 0 0
+/images/sale/carousel/strip_27_large.jpg
+1 1 0 96433 0 0
+/images/sale/carousel/strip_27.jpg
+1 1 0 45078 0 0
+/pictures/0000/0137/siti_archery_thumb.gif
+1 2 0 89456 0 0
+/pictures/0000/0107/siti_thumbs_up_thumb.jpg
+1 1 0 33263 0 0
+# End Of Table - urls
+# -sites- (monthly)
+msnbot-131-253-38-98.search.msn.com
+0 2 2 113129 0 0
+-
+202.46.52.51
+0 1 1 3262 1 1357456151
+/
+202.46.62.94
+0 1 1 3262 1 1357836444
+/
+202.46.52.52
+0 1 1 3262 1 1357226110
+/
+8.17.102.183
+0 2 0 470 2 1357390892
+-
+65.183.8.54
+0 1 0 235 1 1357299843
+-
+202.46.63.205
+0 1 1 3262 1 1357843448
+/
+msnbot-65-55-211-189.search.msn.com
+0 2 2 84637 0 0
+-
+65.82.99.195
+0 12 0 2891 1 1357611225
+-
+msnbot-157-55-34-28.search.msn.com
+0 2 1 99 1 1357107741
+/public/show_category/12
+msnbot-65-55-211-158.search.msn.com
+0 2 2 36776 0 0
+-
+crawl-66-249-74-72.googlebot.com
+0 57 45 302924 19 1358125736
+/
+s15287968.onlinehome-server.info
+0 2 0 470 1 1357584636
+-
+202.46.52.80
+0 1 1 3262 1 1357468725
+/
+msnbot-65-55-215-39.search.msn.com
+0 4 4 144125 0 0
+-
+msnbot-65-55-211-167.search.msn.com
+0 2 2 71816 0 0
+-
+baiduspider-180-76-5-107.crawl.baidu.com
+0 1 1 1648 0 0
+-
+msnbot-65-52-109-108.search.msn.com
+0 2 2 50306 0 0
+-
+msnbot-65-55-215-102.search.msn.com
+0 2 2 123953 0 0
+-
+202.46.54.35
+0 1 1 3262 1 1357944379
+/
+msnbot-65-55-215-88.search.msn.com
+0 2 2 35734 0 0
+-
+202.46.54.39
+0 1 1 3262 1 1357526712
+/
+ec2-23-22-238-151.compute-1.amazonaws.com
+0 1 1 0 1 1357365263
+/
+msnbot-131-253-36-206.search.msn.com
+0 13 12 328598 1 1357803594
+/public/show_category/9
+msnbot-65-55-212-188.search.msn.com
+0 2 2 33266 0 0
+-
+msnbot-65-55-211-185.search.msn.com
+0 2 2 39172 0 0
+-
+msnbot-65-55-215-57.search.msn.com
+0 2 2 42724 0 0
+-
+msnbot-65-55-215-97.search.msn.com
+0 2 2 38246 0 0
+-
+msnbot-65-55-217-227.search.msn.com
+0 23 23 559064 1 1357742316
+/public/show_category/8
+baiduspider-180-76-5-136.crawl.baidu.com
+0 1 1 99 0 0
+-
+msnbot-207-46-194-74.search.msn.com
+0 2 2 96520 0 0
+-
+msnbot-65-55-215-66.search.msn.com
+0 2 2 495 0 0
+-
+ks311135.kimsufi.com
+0 2 2 0 2 1357819239
+/
+msnbot-131-253-26-238.search.msn.com
+0 8 7 90998 1 1358065089
+/public/show_category/10
+msnbot-157-55-32-57.search.msn.com
+0 1 1 5834 1 1357608980
+/public/show_category/18
+208.30.189.80.dyn.plus.net
+0 27 27 663483 1 1357191140
+/public/show_category/1
+baiduspider-180-76-5-150.crawl.baidu.com
+0 2 2 14017 2 1357884464
+/public/show_category/12
+cpc14-gill16-2-0-cust18.20-1.cable.virginmedia.com
+0 1 1 82169 0 0
+-
+baiduspider-180-76-5-158.crawl.baidu.com
+0 1 1 99 0 0
+-
+msnbot-65-55-212-175.search.msn.com
+0 2 2 13716 0 0
+-
+baiduspider-180-76-5-161.crawl.baidu.com
+0 1 1 7377 1 1357197271
+/public/show_category/11
+baiduspider-180-76-5-58.crawl.baidu.com
+0 1 1 1648 0 0
+-
+baiduspider-180-76-5-165.crawl.baidu.com
+0 1 1 99 0 0
+-
+msnbot-65-55-212-89.search.msn.com
+0 10 9 190294 0 0
+-
+msnbot-65-55-212-184.search.msn.com
+0 4 4 123847 0 0
+-
+msnbot-207-46-194-61.search.msn.com
+0 2 2 20986 0 0
+-
+baiduspider-180-76-5-65.crawl.baidu.com
+0 3 1 334 2 1357976394
+-
+202.46.59.142
+0 1 1 3262 1 1357499395
+/
+baiduspider-180-76-5-187.crawl.baidu.com
+0 1 1 7833 1 1357233877
+/public/show_category/12
+reverse.completel.net
+0 12 0 2891 1 1357060764
+-
+202.46.56.45
+0 1 1 3262 1 1357672160
+/
+msnbot-65-55-212-162.search.msn.com
+0 2 2 42291 0 0
+-
+202.46.56.49
+0 1 1 3262 1 1357187912
+/
+baiduspider-180-76-5-87.crawl.baidu.com
+0 1 0 235 1 1357438503
+-
+202.46.56.54
+0 1 1 3262 1 1357764294
+/
+msnbot-65-55-212-76.search.msn.com
+0 5 5 195919 0 0
+-
+baiduspider-180-76-5-90.crawl.baidu.com
+0 1 1 7377 1 1357115226
+/public/show_category/11
+baiduspider-180-76-5-94.crawl.baidu.com
+0 1 1 5071 1 1357010603
+/public/show_category/15
+65.240.128.253
+0 1 1 82662 0 0
+-
+119.63.193.131
+0 38 38 123956 38 1358131531
+/
+180.76.6.211
+0 1 1 99 0 0
+-
+119.63.193.132
+0 44 44 143528 44 1358102356
+/
+180.76.6.213
+0 1 1 99 0 0
+-
+msnbot-65-55-212-85.search.msn.com
+0 13 12 394499 1 1358025684
+/public/show_category/12
+180.76.6.222
+0 1 0 235 1 1357359705
+-
+180.76.6.224
+0 1 0 235 1 1357480050
+-
+202.46.58.141
+0 1 1 3262 1 1357987033
+/
+202.46.57.105
+0 1 1 3262 1 1358009173
+/
+msnbot-157-56-229-23.search.msn.com
+0 1 1 5834 1 1357519488
+/public/show_category/18
+180.76.6.230
+0 1 0 0 1 1357151226
+/public/show_category/1
+180.76.6.232
+0 1 0 235 1 1357405733
+-
+msnbot-207-46-194-142.search.msn.com
+0 2 2 42724 0 0
+-
+crawl-66-249-74-58.googlebot.com
+0 1 1 3262 1 1357301107
+/public
+202.46.58.170
+0 1 1 3262 1 1357542566
+/
+202.46.58.173
+0 2 2 6524 2 1357972940
+/
+202.46.58.40
+0 1 1 3262 1 1358088229
+/
+202.46.58.46
+0 1 1 3262 1 1357218711
+/
+202.46.58.47
+0 1 1 3262 1 1358001836
+/
+spider27.picsearch.com
+0 1 1 99 0 0
+-
+184-106-227-16.static.cloud-ips.com
+0 33 33 1152698 1 1357338084
+/
+110.173.1.133
+0 1 0 235 1 1357281810
+-
+202.46.57.142
+0 1 1 3262 1 1357829106
+/
+38.111.147.83
+0 6 6 29525 1 1357110579
+/public/show_category/11
+38.111.147.86
+0 2 2 8471 1 1357512488
+/sale
+119.63.193.194
+0 25 25 81550 25 1358116700
+/
+119.63.193.195
+0 19 19 61978 19 1358045040
+/
+119.63.193.196
+0 32 32 104384 32 1358073997
+/
+202.46.56.112
+0 1 1 3262 1 1357425493
+/
+msnbot-65-55-211-157.search.msn.com
+0 2 2 37832 0 0
+-
+72.51.228.48
+0 1 1 77490 0 0
+-
+202.46.56.118
+0 1 1 3262 1 1357144702
+/
+201.56.128.2
+0 1 1 0 1 1357211623
+/
+ec2-107-21-165-26.compute-1.amazonaws.com
+0 1 1 3262 1 1357548472
+/
+baiduspider-180-76-5-113.crawl.baidu.com
+0 2 1 3917 1 1357324966
+-
+202.46.56.125
+0 1 1 3262 1 1357591677
+/
+msnbot-65-55-211-166.search.msn.com
+0 2 2 75732 0 0
+-
+122.58.60.71
+0 310 123 3015487 9 1358040450
+/
+msnbot-65-52-109-43.search.msn.com
+0 2 2 77333 0 0
+-
+pool-71-176-66-73.syrcny.fios.verizon.net
+0 34 34 161719 3 1357559648
+/
+180.76.6.29
+0 1 1 99 0 0
+-
+host-174-45-68-168.bzm-mt.client.bresnan.net
+0 4 4 6722 1 1357038543
+/
+108.250.154.128
+0 40 24 633522 1 1358008650
+/public/show_category/6
+180.76.6.35
+0 1 1 99 0 0
+-
+180.76.6.37
+0 1 0 0 1 1357593400
+/public/show_category/1
+urchin.critical.io
+0 1 1 3262 1 1357142923
+/
+202.46.57.180
+0 1 1 3262 1 1357267551
+/
+msnbot-65-55-215-110.search.msn.com
+0 2 2 31187 0 0
+-
+202.46.56.147
+0 1 1 3262 1 1357123099
+/
+msnbot-65-55-211-144.search.msn.com
+0 2 2 52551 0 0
+-
+202.46.55.106
+0 1 1 3262 1 1357598309
+/
+msnbot-65-55-215-56.search.msn.com
+0 3 3 137349 0 0
+-
+202.46.55.109
+0 1 1 3262 1 1357166298
+/
+msnbot-65-55-211-184.search.msn.com
+0 2 2 7578 0 0
+-
+202.46.61.20
+0 1 1 3262 1 1357209527
+/
+202.46.61.24
+0 1 1 3262 1 1357181137
+/
+202.46.61.29
+0 1 1 3262 1 1357577557
+/
+msnbot-131-253-26-228.search.msn.com
+0 12 11 208692 0 0
+-
+baiduspider-180-76-5-142.crawl.baidu.com
+0 1 1 99 0 0
+-
+msnbot-65-55-212-156.search.msn.com
+0 2 2 52210 0 0
+-
+msnbot-65-55-211-153.search.msn.com
+0 2 2 18923 0 0
+-
+msnbot-65-55-215-65.search.msn.com
+0 2 2 89583 0 0
+-
+202.46.61.39
+0 1 1 3262 1 1358045025
+/
+crawl03.exabot.com
+0 5 3 8031 3 1358027777
+/public/show_category/12
+202.46.56.163
+0 1 1 3262 1 1357477883
+/
+202.46.56.167
+0 1 1 3262 1 1357339144
+/
+baiduspider-180-76-5-53.crawl.baidu.com
+0 2 1 99 1 1357075515
+/public/show_category/6
+202.46.56.170
+0 1 1 3262 1 1357800179
+/
+msnbot-65-55-212-174.search.msn.com
+0 2 2 11862 0 0
+-
+msnbot-65-55-215-83.search.msn.com
+0 6 6 232066 0 0
+-
+baiduspider-180-76-5-60.crawl.baidu.com
+0 2 1 7969 2 1357884671
+/public/show_category/12
+baiduspider-180-76-5-171.crawl.baidu.com
+0 5 3 3831 2 1357629065
+-
+msnbot-131-253-36-201.search.msn.com
+0 13 12 306546 1 1357873775
+/public/show_category/13
+msnbot-207-46-194-118.search.msn.com
+0 2 2 37197 0 0
+-
+195.244.168.2
+0 1 1 0 1 1357013242
+/
+msnbot-65-55-212-143.search.msn.com
+0 4 4 37541 0 0
+-
+e2.68.2d.static.xlhost.com
+0 3 3 9786 3 1357701013
+/
+msnbot-65-55-211-140.search.msn.com
+0 2 2 71517 0 0
+-
+msnbot-65-55-212-183.search.msn.com
+0 2 2 82591 0 0
+-
+208.115.113.83
+0 8 8 27373 4 1358119884
+/public/show_category/9
+ns223950.ovh.net
+0 1 1 7355 1 1357395516
+/public/show_category/13
+baiduspider-180-76-5-186.crawl.baidu.com
+0 1 0 235 1 1357100871
+-
+msnbot-65-55-212-152.search.msn.com
+0 2 2 14225 0 0
+-
+msnbot-157-55-32-83.search.msn.com
+0 104 101 348127 42 1358121901
+/
+baiduspider-180-76-5-197.crawl.baidu.com
+0 1 1 7377 1 1357750296
+/public/show_category/11
+202.46.54.122
+0 1 1 3262 1 1357505321
+/
+202.46.54.126
+0 1 1 3262 1 1357079926
+/
+msnbot-157-55-32-113.search.msn.com
+0 2 1 99 1 1357903966
+/public/show_category/13
+ks206255.kimsufi.com
+0 1 1 0 1 1357458257
+/
+202.46.51.42
+0 1 1 3262 1 1357872290
+/
+msnbot-157-55-33-40.search.msn.com
+0 3 3 17502 1 1357691563
+/public/show_category/18
+202.46.61.89
+0 1 1 3262 1 1358125872
+/
+baiduspider-180-76-5-93.crawl.baidu.com
+0 1 1 643 0 0
+-
+180.167.15.58
+0 1 0 235 1 1357016664
+-
+baiduspider-180-76-5-97.crawl.baidu.com
+0 1 0 0 1 1357391497
+/public/show_category/1
+s15800762.onlinehome-server.info
+0 2 0 470 1 1357436919
+-
+msnbot-207-46-194-145.search.msn.com
+0 2 2 45177 0 0
+-
+msnbot-65-55-212-130.search.msn.com
+0 2 2 9872 0 0
+-
+msnbot-157-55-32-61.search.msn.com
+0 4 4 49875 1 1357003133
+/public/show_category/1
+msnbot-65-55-212-170.search.msn.com
+0 2 2 37196 0 0
+-
+202.46.61.99
+0 1 1 3262 1 1358131516
+/
+184.107.227.10
+0 1 1 0 1 1357002896
+/
+msnbot-131-253-38-102.search.msn.com
+0 2 2 49553 0 0
+-
+202.46.51.60
+0 1 1 3262 1 1357067401
+/
+202.46.63.43
+0 1 1 3262 1 1358073978
+/
+202.46.51.66
+0 1 1 3262 1 1357693827
+/
+202.46.55.192
+0 1 1 3262 1 1357295975
+/
+202.46.55.197
+0 1 1 3262 1 1357073208
+/
+202.46.55.199
+0 1 1 3262 1 1357908288
+/
+202.46.51.71
+0 1 1 3262 1 1357332413
+/
+msnbot-157-55-36-37.search.msn.com
+0 9 9 41036 7 1357438679
+/public/show_category/18
+202.46.51.77
+0 1 1 3262 1 1357613149
+/
+202.46.54.164
+0 1 1 3262 1 1358052430
+/
+globalnat.deutschebahn.com
+0 1 1 68727 0 0
+-
+140.206.112.241
+0 77 0 18471 2 1357859413
+-
+202.46.63.69
+0 1 1 3262 1 1357348326
+/
+202.46.53.130
+0 1 1 3262 1 1357569958
+/
+202.46.53.131
+0 1 1 3262 1 1357735473
+/
+202.46.53.132
+0 1 1 3262 1 1357749998
+/
+msnbot-207-46-194-49.search.msn.com
+0 2 2 123953 0 0
+-
+crawl-66-249-73-108.googlebot.com
+0 9 6 16988 1 1357000743
+/public/show_category/9
+msnbot-207-46-194-89.search.msn.com
+0 2 2 36118 0 0
+-
+202.46.63.72
+0 1 1 3262 1 1357699428
+/
+202.46.53.32
+0 1 1 3262 1 1357793270
+/
+msnbot-65-55-215-104.search.msn.com
+0 2 2 41747 0 0
+-
+174-19-144-102.phnx.qwest.net
+0 27 26 659495 1 1357839584
+/public/show_category/6
+msnbot-65-55-212-80.search.msn.com
+0 12 11 295667 1 1358008721
+/public/show_category/9
+hznfs4.alibaba.com
+0 1 1 0 1 1357848272
+/
+ip-208-109-50-146.ip.secureserver.net
+0 1 0 235 0 0
+-
+baiduspider-180-76-5-101.crawl.baidu.com
+0 1 0 0 1 1357419875
+/public/show_category/6
+202.46.63.91
+0 1 1 3262 1 1357713490
+/
+msnbot-207-46-194-67.search.msn.com
+0 2 2 101713 0 0
+-
+202.46.63.93
+0 1 1 3262 1 1357058301
+/
+msnbot-65-55-211-187.search.msn.com
+0 2 2 9858 0 0
+-
+msnbot-65-55-215-59.search.msn.com
+0 2 2 36979 0 0
+-
+msnbot-65-55-218-63.search.msn.com
+0 14 13 325606 1 1357933144
+/public/show_category/18
+dslb-188-100-254-180.pools.arcor-ip.net
+0 3 3 6623 1 1358080035
+/
+66.241.102.10
+0 1 0 235 0 0
+-
+202.46.53.162
+0 1 1 3262 1 1357684681
+/
+202.46.52.120
+0 1 1 3262 1 1358023549
+/
+202.46.52.124
+0 1 1 3262 1 1358110069
+/
+202.46.52.125
+0 1 1 3262 1 1358116699
+/
+202.46.53.60
+0 1 1 3262 1 1357548502
+/
+msnbot-65-55-212-199.search.msn.com
+0 2 2 71517 0 0
+-
+202.46.53.63
+0 1 1 3262 1 1358037866
+/
+202.46.53.68
+0 1 1 3262 1 1357901258
+/
+202.46.53.69
+0 1 1 3262 1 1357202920
+/
+202.46.59.209
+0 1 1 3262 1 1357677990
+/
+msnbot-65-55-24-215.search.msn.com
+0 26 25 107715 14 1358132069
+/public/show_category/10
+202.46.53.170
+0 1 1 3262 1 1357650644
+/
+202.46.52.130
+0 1 1 3262 1 1357929836
+/
+202.46.63.120
+0 1 1 3262 1 1358081110
+/
+202.46.52.132
+0 1 1 3262 1 1357821912
+/
+202.46.63.122
+0 1 1 3262 1 1357585795
+/
+202.46.53.72
+0 1 1 3262 1 1357756994
+/
+3e6baa26.rev.stofanet.dk
+0 1 1 3262 1 1357280318
+/
+202.46.63.131
+0 1 1 3262 1 1357937100
+/
+217.26.81.189
+0 1 1 0 1 1358096118
+/
+msnbot-131-253-24-142.search.msn.com
+0 11 10 223225 0 0
+-
+202.46.63.138
+0 1 1 3262 1 1358059328
+/
+202.46.52.149
+0 1 1 3262 1 1357447098
+/
+202.46.63.139
+0 1 1 3262 1 1357858005
+/
+msnbot-65-55-212-177.search.msn.com
+0 2 2 45825 0 0
+-
+202.46.53.83
+0 1 1 3262 1 1357275116
+/
+baiduspider-180-76-5-138.crawl.baidu.com
+0 1 1 7833 1 1357460059
+/public/show_category/12
+202.46.55.21
+0 2 2 6524 2 1357958686
+/
+202.46.53.88
+0 1 1 3262 1 1358102353
+/
+202.46.55.25
+0 1 1 3262 1 1357994666
+/
+202.46.55.29
+0 1 1 3262 1 1357462144
+/
+msnbot-131-253-38-21.search.msn.com
+0 2 2 14922 0 0
+-
+msnbot-65-55-212-207.search.msn.com
+0 2 2 96532 0 0
+-
+202.46.63.145
+0 1 1 3262 1 1358095586
+/
+baiduspider-180-76-5-145.crawl.baidu.com
+0 1 1 3262 1 1357606017
+/
+202.46.53.96
+0 1 1 3262 1 1357490316
+/
+202.46.55.35
+0 1 1 3262 1 1357175487
+/
+msnbot-65-55-215-55.search.msn.com
+0 4 4 200846 0 0
+-
+findsa.co.za
+0 2 2 6524 2 1357769605
+/
+202.46.62.110
+0 2 2 6524 2 1357721175
+/
+202.46.62.115
+0 1 1 3262 1 1357865068
+/
+122.154.101.54
+0 1 0 235 1 1357468067
+-
+202.46.58.207
+0 1 1 3262 1 1357261914
+/
+msnbot-65-55-215-64.search.msn.com
+0 8 8 28018 0 0
+-
+static-ip-80-86-88-173.inaddr.ip-pool.com
+0 1 1 3262 1 1357206890
+/
+msnbot-131-253-26-236.search.msn.com
+0 9 8 152171 0 0
+-
+baiduspider-180-76-5-56.crawl.baidu.com
+0 2 1 5946 2 1358060180
+/public/show_category/17
+baiduspider-180-76-5-163.crawl.baidu.com
+0 1 0 235 1 1357219502
+-
+147.66.238.89.in-addr.arpa.manitu.net
+0 1 1 3262 1 1357724668
+/
+crawl-66-249-75-169.googlebot.com
+0 4 3 15150 1 1357569075
+/sale/page_2
+202.46.55.50
+0 1 1 3262 1 1357564305
+/
+msnbot-65-55-212-164.search.msn.com
+0 2 2 170314 0 0
+-
+202.46.55.57
+0 1 1 3262 1 1357310711
+/
+202.46.55.58
+0 1 1 3262 1 1357391444
+/
+msnbot-207-46-194-81.search.msn.com
+0 2 2 38246 0 0
+-
+baiduspider-180-76-5-63.crawl.baidu.com
+0 1 1 5834 1 1358033272
+/public/show_category/18
+baiduspider-180-76-5-170.crawl.baidu.com
+0 1 1 99 0 0
+-
+202.46.51.141
+0 1 1 3262 1 1357403913
+/
+baiduspider-180-76-5-67.crawl.baidu.com
+0 2 2 198 0 0
+-
+202.46.62.131
+0 1 1 3262 1 1357240205
+/
+91-64-204-36-dynip.superkabel.de
+0 24 24 144914 1 1357891915
+/public/show_category/9
+202.46.51.147
+0 1 1 3262 1 1358066858
+/
+202.46.62.137
+0 1 1 3262 1 1357512860
+/
+msnbot-65-55-212-133.search.msn.com
+0 2 2 51224 0 0
+-
+msnbot-207-46-194-50.search.msn.com
+0 2 2 82591 0 0
+-
+pso-132.picsearch.com
+0 1 1 21271 0 0
+-
+msnbot-157-56-229-87.search.msn.com
+0 2 1 99 1 1357346972
+/public/show_category/1
+202.46.62.141
+0 1 1 3262 1 1357706833
+/
+baiduspider-180-76-5-181.crawl.baidu.com
+0 1 0 235 1 1357122706
+-
+202.46.62.143
+0 1 1 3262 1 1357894002
+/
+202.46.51.156
+0 1 1 3262 1 1357360699
+/
+202.46.51.157
+0 1 1 3262 1 1357785872
+/
+202.46.61.104
+0 1 1 3262 1 1357369723
+/
+202.46.51.159
+0 1 1 3262 1 1357002712
+/
+202.46.61.105
+0 1 1 3262 1 1357246016
+/
+msnbot-65-55-212-182.search.msn.com
+0 2 2 48747 0 0
+-
+crawl-66-249-74-45.googlebot.com
+0 2 2 3361 1 1357728028
+/
+202.46.50.121
+0 1 1 3262 1 1357440297
+/
+131.253.41.43
+0 2 2 113129 0 0
+-
+ns2.advancedns.net
+0 1 1 3262 1 1357871597
+/
+202.104.192.164
+0 6 0 1410 1 1357951104
+-
+202.46.57.208
+0 1 1 3262 1 1357397086
+/
+200.37.179.91
+0 1 0 235 1 1357001252
+-
+baiduspider-180-76-5-92.crawl.baidu.com
+0 2 1 5306 2 1357729033
+/public/show_category/15
+baiduspider-180-76-5-96.crawl.baidu.com
+0 1 1 99 0 0
+-
+202.46.50.136
+0 1 1 3262 1 1357375757
+/
+202.103.36.43
+0 1 0 0 1 1357087292
+-
+222-153-223-110.mobile.telecom.co.nz
+0 10 10 271780 1 1357484999
+/sale/page_2
+msnbot-131-253-38-19.search.msn.com
+0 2 2 6794 0 0
+-
+38.109.219.100
+0 4 4 6722 1 1357819452
+/
+219-89-88-216.jetstart.xtra.co.nz
+0 1 1 82662 0 0
+-
+node-13536.pppoe.execulink.com
+0 25 0 5875 1 1357798292
+-
+188-143-122-191.pool.digikabel.hu
+0 1 0 306 0 0
+-
+202.46.50.150
+0 1 1 3262 1 1357555134
+/
+202.46.61.142
+0 1 1 3262 1 1357317519
+/
+202.46.50.159
+0 2 2 6524 2 1357807608
+/
+216.57.178.226
+0 19 19 578566 1 1357137493
+/public
+67-197-152-228.ln.dsl.dyn.comporium.net
+0 1 1 89870 0 0
+-
+202.46.61.151
+0 1 1 3262 1 1357305157
+/
+msnbot-157-55-36-36.search.msn.com
+0 2 1 99 1 1357753582
+/public/show_category/17
+ec2-107-20-21-157.compute-1.amazonaws.com
+0 1 1 0 1 1357201598
+/
+msnbot-65-55-211-159.search.msn.com
+0 2 2 520 0 0
+-
+202.46.50.180
+0 1 1 3262 1 1357483524
+/
+202.46.50.186
+0 1 1 3262 1 1357965436
+/
+202.46.57.80
+0 1 1 3262 1 1357886540
+/
+202.46.57.83
+0 1 1 3262 1 1357089095
+/
+202.46.57.86
+0 1 1 3262 1 1357008318
+/
+msnbot-207-46-194-100.search.msn.com
+0 2 2 98596 0 0
+-
+202.46.60.11
+0 1 1 3262 1 1357634843
+/
+msnbot-65-55-212-70.search.msn.com
+0 12 11 268223 0 0
+-
+202.46.60.18
+0 1 1 3262 1 1357283339
+/
+202.46.61.185
+0 1 1 3262 1 1357253657
+/
+202.46.60.144
+0 1 1 3262 1 1357850748
+/
+202.46.61.189
+0 1 1 3262 1 1357915403
+/
+202.46.57.91
+0 1 1 3262 1 1357742649
+/
+msnbot-65-55-215-103.search.msn.com
+0 2 1 334 0 0
+-
+baiduspider-180-76-5-100.crawl.baidu.com
+0 1 1 3262 1 1357086637
+/
+202.46.57.98
+0 1 1 3262 1 1357353973
+/
+msnbot-65-55-215-89.search.msn.com
+0 2 2 75934 0 0
+-
+baiduspider-180-76-5-111.crawl.baidu.com
+0 3 2 12683 3 1358060387
+/public/show_category/15
+202.46.55.200
+0 1 1 3262 1 1357153782
+/
+202.46.55.201
+0 1 1 3262 1 1357137984
+/
+msnbot-65-55-212-189.search.msn.com
+0 4 4 104420 0 0
+-
+202.46.55.204
+0 1 1 3262 1 1357619921
+/
+202.46.59.46
+0 1 1 3262 1 1357656278
+/
+202.46.55.206
+0 2 2 6524 2 1357418807
+/
+msnbot-65-55-211-186.search.msn.com
+0 4 4 57807 0 0
+-
+202.46.59.49
+0 1 1 3262 1 1357771577
+/
+202.46.60.161
+0 1 1 3262 1 1357290921
+/
+msnbot-65-55-217-228.search.msn.com
+0 22 22 563238 1 1357068087
+/public/show_category/6
+202.46.60.167
+0 1 1 3262 1 1357607519
+/
+ec2-50-17-20-230.compute-1.amazonaws.com
+0 1 1 0 0 0
+-
+msnbot-65-55-211-155.search.msn.com
+0 2 2 24474 0 0
+-
+msnbot-65-55-215-67.search.msn.com
+0 6 6 47504 0 0
+-
+msnbot-65-55-212-167.search.msn.com
+0 2 2 98596 0 0
+-
+202.46.50.11
+0 1 1 3262 1 1357814729
+/
+msnbot-65-55-52-86.search.msn.com
+0 2 1 99 1 1357252647
+/public/show_category/13
+202.46.50.15
+0 1 1 3262 1 1357045912
+/
+202.46.50.17
+0 1 1 3262 1 1357663081
+/
+202.46.50.18
+0 1 1 3262 1 1357159629
+/
+baiduspider-180-76-5-140.crawl.baidu.com
+0 1 1 3262 1 1357168755
+/
+msnbot-131-253-36-133.search.msn.com
+0 4 4 75664 0 0
+-
+baiduspider-180-76-5-144.crawl.baidu.com
+0 1 1 99 0 0
+-
+crawl-66-249-76-169.googlebot.com
+0 14 7 283617 3 1357966088
+/public/show_category/11
+202.46.59.75
+0 1 1 3262 1 1357015105
+/
+202.46.60.60
+0 1 1 3262 1 1357728440
+/
+msnbot-65-55-211-173.search.msn.com
+0 2 2 38988 0 0
+-
+202.46.60.65
+0 1 1 3262 1 1357051553
+/
+spider-100-43-83-141.yandex.com
+0 22 22 36971 10 1357847853
+/
+www.whois.sc
+0 2 2 3361 1 1357813779
+/
+baiduspider-180-76-5-48.crawl.baidu.com
+0 2 1 334 1 1357183023
+-
+202.46.54.201
+0 1 1 3262 1 1357922755
+/
+msnbot-157-55-35-100.search.msn.com
+0 7 7 29368 5 1358132445
+/public/show_category/18
+92.240.68.153
+0 1 0 235 0 0
+-
+platypus.unixbsd.info
+0 1 0 235 1 1357745959
+-
+202.46.62.11
+0 1 1 3262 1 1357024175
+/
+202.46.62.13
+0 1 1 3262 1 1357196977
+/
+202.46.62.15
+0 1 1 3262 1 1357533499
+/
+202.46.62.16
+0 1 1 3262 1 1357036710
+/
+202.46.62.19
+0 1 1 3262 1 1358030852
+/
+baiduspider-180-76-5-55.crawl.baidu.com
+0 1 1 99 0 0
+-
+baiduspider-180-76-5-162.crawl.baidu.com
+0 3 2 12904 3 1357542824
+/public/show_category/15
+baiduspider-180-76-5-166.crawl.baidu.com
+0 1 1 3262 1 1357728826
+/
+msnbot-65-55-212-154.search.msn.com
+0 2 2 38750 0 0
+-
+202.46.60.83
+0 1 1 3262 1 1357434630
+/
+msnbot-65-55-212-194.search.msn.com
+0 4 4 55403 0 0
+-
+202.46.62.21
+0 1 1 3262 1 1357116471
+/
+timelineconsult-ng.com
+0 1 1 3262 1 1357105687
+/
+msnbot-65-55-212-163.search.msn.com
+0 2 2 34591 0 0
+-
+202.46.60.94
+0 1 1 3262 1 1357132307
+/
+202.46.62.30
+0 1 1 3262 1 1357382347
+/
+202.46.60.95
+0 1 1 3262 1 1357231108
+/
+202.46.60.96
+0 1 1 3262 1 1357951480
+/
+baiduspider-180-76-5-180.crawl.baidu.com
+0 2 1 334 1 1358004859
+-
+218.201.121.99
+0 2 0 470 2 1357973935
+-
+baiduspider-180-76-5-184.crawl.baidu.com
+0 1 1 99 0 0
+-
+msnbot-65-55-212-172.search.msn.com
+0 4 4 100433 0 0
+-
+tmp.sitefinder.co.nz
+0 2 2 6524 1 1357775948
+/
+baiduspider-180-76-5-88.crawl.baidu.com
+0 1 1 99 0 0
+-
+ec2-23-20-36-127.compute-1.amazonaws.com
+0 1 1 0 1 1357499390
+/
+202.46.53.202
+0 2 2 6524 2 1357627137
+/
+wbgrp-crawl001.us.archive.org
+0 27 27 394811 1 1357883037
+/public/show_category/18
+ec2-174-129-115-215.compute-1.amazonaws.com
+0 1 1 0 1 1357507017
+/
+93-62-0-158.ip20.fastwebnet.it
+0 1 1 0 1 1357433616
+/
+baiduspider-180-76-5-99.crawl.baidu.com
+0 2 1 334 1 1357283225
+-
+202.46.50.83
+0 1 1 3262 1 1357030056
+/
+202.46.52.22
+0 1 1 3262 1 1357980410
+/
+202.46.50.87
+0 1 1 3262 1 1357101488
+/
+202.46.50.89
+0 1 1 3262 1 1358016235
+/
+202.46.52.28
+0 1 1 3262 1 1357110541
+/
+193.255.68.76
+0 29 0 7003 1 1357177153
+-
+host-184-166-79-181.msl-mt.client.bresnan.net
+0 13 13 377787 1 1357558942
+/public/show_category/6
+202.46.52.34
+0 1 1 3262 1 1357879694
+/
+12.228.33.210
+0 1 1 13621 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+crawl-66-249-74-72.googlebot.com
+0 3 2 9510 1 1358125736
+/
+119.63.193.131
+0 2 2 6524 2 1358131531
+/
+msnbot-157-55-32-83.search.msn.com
+0 2 2 3361 1 1358121901
+/
+202.46.61.89
+0 1 1 3262 1 1358125872
+/
+202.46.61.99
+0 1 1 3262 1 1358131516
+/
+msnbot-65-55-24-215.search.msn.com
+0 2 2 7214 1 1358132069
+/public/show_category/10
+msnbot-157-55-35-100.search.msn.com
+0 1 1 5834 1 1358132445
+/public/show_category/18
+# End Of Table - sites (daily)
+# -referrers- 
+http://www.sitefinder.co.nz
+0 1
+- (Direct Request)
+0 1179
+http://www.google.co.uk/search
+0 1
+http://www.waiateara.co.nz/public/show_category/1
+0 25
+http://www.waiateara.co.nz/public/show_category/6
+0 112
+http://www.waiateara.co.nz/public/show_category/8
+0 44
+http://www.waiateara.co.nz/public/show_category/9
+0 66
+http://www.google.com/imgres
+0 8
+http://www.waiateara.co.nz/public/show_category/10
+0 36
+http://www.waiateara.co.nz/public/show_category/11
+0 24
+http://www.waiateara.co.nz/public/show_category/12
+0 24
+http://www.waiateara.co.nz/public/show_category/13
+0 48
+http://www.waiateara.co.nz/public/show_category/15
+0 18
+http://www.waiateara.co.nz/public/show_category/17
+0 22
+http://www.waiateara.co.nz/public/show_category/18
+0 22
+http://whois.domaintools.com/waiateara.co.nz
+0 1
+http://isearch.avg.com/images
+0 1
+http://www.bing.com/images/search
+0 3
+http://www.waiateara.co.nz/
+0 124
+http://www.waiateara.co.nz/stylesheets/waiateara.css
+0 1
+http://www.waiateara.co.nz/sale/page_2
+0 9
+http://www.vebidoo.de/claudius+centner
+0 1
+http://waiateara.co.nz/
+0 25
+http://waiateara.co.nz/public/show_category/12
+0 24
+http://www.netcraft.com/survey/
+0 1
+http://www.waiateara.co.nz/public
+0 17
+# End Of Table - referrers
+# -agents- 
+SAMSUNG-SGH-E250/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0 (compatible; Googlebot-
+0 4
+Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+0 50
+Python-urllib/2.4
+0 1
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1;  SLCC1;  .NET CLR 1.1.4322;  .NET CLR 2.0.40607;  .NET CLR 3.0.04506.648)
+0 23
+Python-urllib/2.5
+0 1
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9.0.13) Gecko/2009073022 Firefox/3.5.2 (.NET CLR 3.5.30729) SurveyBot/2.3 (
+0 2
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 1.1.4322; .NET CLR
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11
+0 54
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 22
+Googlebot-Image/1.0
+0 26
+Mozilla/5.0 (Windows; U; Windows NT 5.1; rv:1.7.3) Gecko/20041001 Firefox/0.10.1
+0 2
+TurnitinBot/2.1 (http://www.turnitin.com/robot/crawlerinfo.html)
+0 8
+psbot/0.1 (+http://www.picsearch.com/bot.html)
+0 2
+Mozilla/5.0 (X11; Linux i686; rv:6.0) Gecko/20100101 Firefox/6.0
+0 1
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC1; Media Center PC 5.0; .
+0 25
+curl/7.19.5 (x86_64-pc-linux-gnu) libcurl/7.19.4 OpenSSL/0.9.8o zlib/1.2.3.4 libidn/1.22 libssh2/1.1
+0 1
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1
+0 103
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:15.0) Gecko/20100101 Firefox/15.0.1
+0 231
+Mozilla/5.0 (iPad; U; CPU OS 4_3_5 like Mac OS X; en-gb) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8L1 Sa
+0 1
+Mozilla/5.0 (Windows NT 6.1; rv:16.0) Gecko/20100101 Firefox/16.0
+0 4
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+0 1
+Mozilla/5.0 (Windows NT 5.1; rv:17.0) Gecko/20100101 Firefox/17.0
+0 13
+msnbot-media/1.1 (+http://search.msn.com/msnbot.htm)
+0 181
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1;  SLCC1;  .NET CLR 1.1.4325;  .NET CLR 2.0.40607;  .NET CLR 3.0.30729)
+0 25
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2;  SLCC1;  .NET CLR 1.1.4325;  .NET CLR 2.0.50727;  .NET CLR 3.0.30729;  .NE
+0 13
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 49
+ZmEu
+0 6
+Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_1 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8B
+0 8
+Mozilla/5.0 (iPad; CPU OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A523 Safari/8536.2
+0 2
+Mozilla/4.0 (compatible; Netcraft Web Server Survey)
+0 1
+Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)
+0 3
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x4.90)
+0 1
+Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot)
+0 5
+Mozilla/5.0 (compatible; MJ12bot/v1.4.3; http://www.majestic12.co.uk/bot.php?+)
+0 69
+Mozilla/5.0 (compatible; Ezooms/1.0; ezooms.bot@gmail.com)
+0 8
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11
+0 1
+Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+0 23
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+0 165
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Netcraft SSL Server Survey - contact info@netcraft.com)
+0 3
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152
+0 1
+Mozilla/5.0 (compatible; archive.org_bot/3.1.2 +http://natlib.govt.nz/about-us/current-initiatives/web-harvest-2012)
+0 27
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+0 33
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)
+0 316
+Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9) Gecko/2008052906 Firefox/3.0
+0 10
+Mozilla/5.0 (Windows NT 6.0; rv:17.0) Gecko/20100101 Firefox/17.0
+0 40
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2;  SLCC1;  .NET CLR 1.1.4325;  .NET CLR 2.0.50727;  .NET CLR 3.0.04506.648)
+0 23
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1;  SV1;  .NET CLR 1.1.4325;  .NET CLR 2.0.50727;  .NET CLR 3.0.30729;  .NET 
+0 48
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+0 19
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0
+0 74
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
+0 45
+Mozilla/3.0 (compatible; Indy Library)
+0 1
+Mozilla/5.0 (compatible; Genieo/1.0 http://www.genieo.com/webfilter.html)
+0 5
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 2
+webcollage/1.135a
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A523 Safa
+0 10
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

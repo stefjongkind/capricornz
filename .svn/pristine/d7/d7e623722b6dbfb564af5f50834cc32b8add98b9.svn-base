@@ -1,0 +1,13 @@
+div {link_to 'Add category', :controller => :categories, :action => :new}
+h1 "Categories"
+table.categories  do
+  thead do
+    tr :class => cycle("odd", "even") do
+      th.categories {"Category"}
+      th.categories {"Images"}
+    end
+  end
+  tbody :id => "catlist" do
+    render :partial => 'categories_tree'
+  end
+end

@@ -1,0 +1,149 @@
+div.content_index! do
+  table :cellpadding=>'0', :cellspacing=>'0' do
+    tr :valign=>'top' do
+      div.title { h1 {"Birds Clearing, Golden Bay, New Zealand"}}
+      td.column_1 do
+        div.promo_text do
+          p {"- Surrounded by magical native beech forest..."}
+          p {"- Stunning view over whole of Golden Bay......."}
+          p {"- 2 story, 4 bedroom, self-sufficient eco home..."}
+          p {"- Solar powered...................."}
+          p {"- Natural spring water and bore..."}
+        end
+        div {image_tag "/images/sale/collage_1.jpg", :border => '0'}
+      end
+      td do 
+        div {image_tag "/images/sale/collage_2.jpg", :border => '0'}
+        div {image_tag "/images/sale/deck.jpg", :border => '0'}
+      end
+    end
+  end
+  div.menu {render :partial=>'menu'}
+  ## CAROUSEL 
+  h2 {"Take a tour of the house..."}
+    div.horizontal_carousel! do
+      div.previous_button
+      div.container do
+        div.carousel do
+          li do
+            a :href=>"/images/sale/carousel/strip_1_large.jpg", :rel=>"lightbox[set1]",  :title=>"east side entrance" do 
+              div.image {image_tag "/images/sale/carousel/strip_1.jpg", :alt=>"east side entrance", :border => '0'  }
+              div.caption {"entrance"}
+            end
+          end
+          li do
+            a :href=>"/images/sale/carousel/strip_3_large.jpg", :rel=>"lightbox[set1]",  :title=>"open plan lounge &amp; dining" do 
+              div.image {image_tag "/images/sale/carousel/strip_3.jpg", :alt=>"open plan lounge &amp; dining", :border => '0'  }
+              div.caption {"open plan lounge &amp; dining"}
+            end
+          end
+          li do
+            a :href=>"/images/sale/carousel/strip_4_large.jpg", :rel=>"lightbox[set1]",  :title=>"east side sitting area" do 
+              div.image {image_tag "/images/sale/carousel/strip_4.jpg", :alt=>"east side sitting area", :border => '0'  }
+              div.caption {"sitting area"}
+            end
+          end
+          li do
+            a :href=>"/images/sale/carousel/strip_5_large.jpg", :rel=>"lightbox[set1]",  :title=>"view towards kitchen" do 
+              div.image {image_tag "/images/sale/carousel/strip_5.jpg", :alt=>"view towards kitchen", :border => '0'  }
+              div.caption {"view towards kitchen"}
+            end
+          end
+          li do
+            a :href=>"/images/sale/carousel/strip_6_large.jpg", :rel=>"lightbox[set1]",  :title=>"downstairs bedrooms" do 
+              div.image {image_tag "/images/sale/carousel/strip_6.jpg", :alt=>"downstairs bedrooms", :border => '0'  }
+              div.caption {"downstairs bedrooms"}
+            end
+          end
+  #        li do
+  #          a :href=>"/images/sale/carousel/strip_7_large.jpg", :rel=>"lightbox[set1]",  :title=>"features &amp; pantry" do 
+  #            div.image {image_tag "/images/sale/carousel/strip_7.jpg", :alt=>"features &amp; pantry", :border => '0'  }
+  #            div.caption {"features &amp; pantry"}
+  #          end
+  #        end
+          li do
+            a :href=>"/images/sale/carousel/strip_8_large.jpg", :rel=>"lightbox[set1]",  :title=>"open plan kitchen" do 
+              div.image {image_tag "/images/sale/carousel/strip_8.jpg", :alt=>"open plan kitchen", :border => '0'  }
+              div.caption {"open plan kitchen"}
+            end
+          end
+          li do
+            a :href=>"/images/sale/carousel/strip_9_large.jpg", :rel=>"lightbox[set1]",  :title=>"kitchen" do 
+              div.image {image_tag "/images/sale/carousel/strip_9.jpg", :alt=>"kitchen", :border => '0'  }
+              div.caption {"kitchen"}
+            end
+          end
+          li do
+            a :href=>"/images/sale/carousel/strip_11_large.jpg", :rel=>"lightbox[set1]",  :title=>"upstairs bedroom with view" do 
+              div.image {image_tag "/images/sale/carousel/strip_11.jpg", :alt=>"upstairs bedroom with view", :border => '0'  }
+              div.caption {"upstairs bedroom with view"}
+            end
+          end
+          li do
+            a :href=>"/images/sale/carousel/strip_10_large.jpg", :rel=>"lightbox[set1]",  :title=>"built in bed" do 
+              div.image {image_tag "/images/sale/carousel/strip_10.jpg", :alt=>"built in bed", :border => '0'  }
+              div.caption {"built in bed"}
+            end
+          end
+          li do
+            a :href=>"/images/sale/carousel/strip_12_large.jpg", :rel=>"lightbox[set1]",  :title=>"upstairs bedroom 2" do 
+              div.image {image_tag "/images/sale/carousel/strip_12.jpg", :alt=>"upstairs bedroom 2", :border => '0'  }
+              div.caption {"upstairs bedroom 2"}
+            end
+          end
+          li do
+            a :href=>"/images/sale/carousel/strip_13_large.jpg", :rel=>"lightbox[set1]",  :title=>"downstairs bedroom (small)" do 
+              div.image {image_tag "/images/sale/carousel/strip_13.jpg", :alt=>"downstairs bedroom (small)", :border => '0'  }
+              div.caption {"downstairs bedroom (small)"}
+            end
+          end
+          li do
+            a :href=>"/images/sale/carousel/strip_14_large.jpg", :rel=>"lightbox[set1]",  :title=>"bathroom &amp; shower" do 
+              div.image {image_tag "/images/sale/carousel/strip_14.jpg", :alt=>"bathroom &amp; shower", :border => '0'  }
+              div.caption {"bathroom &amp; shower"}
+            end
+          end
+          li do
+            a :href=>"/images/sale/carousel/strip_15_large.jpg", :rel=>"lightbox[set1]",  :title=>"bath" do 
+              div.image {image_tag "/images/sale/carousel/strip_15.jpg", :alt=>"bath", :border => '0'  }
+              div.caption {"bath"}
+            end
+          end
+          li do
+            a :href=>"/images/sale/carousel/strip_16_large.jpg", :rel=>"lightbox[set1]",  :title=>"laundry" do 
+              div.image {image_tag "/images/sale/carousel/strip_16.jpg", :alt=>"laundry", :border => '0'  }
+              div.caption {"laundry"}
+            end
+          end
+          li do
+            a :href=>"/images/sale/carousel/strip_24_large.jpg", :rel=>"lightbox[set1]",  :title=>"tree house" do 
+              div.image {image_tag "/images/sale/carousel/strip_24.jpg", :alt=>"tree house", :border => '0'  }
+              div.caption {"amongst the trees"}
+            end
+          end
+          li do
+            a :href=>"/images/sale/carousel/strip_25_large.jpg", :rel=>"lightbox[set1]",  :title=>"french doors" do 
+              div.image {image_tag "/images/sale/carousel/strip_25.jpg", :alt=>"french doors", :border => '0'  }
+              div.caption {"french doors"}
+            end
+          end
+          li do
+            a :href=>"/images/sale/carousel/strip_26_large.jpg", :rel=>"lightbox[set1]",  :title=>"outside sitting area" do 
+              div.image {image_tag "/images/sale/carousel/strip_26.jpg", :alt=>"outside sitting area", :border => '0'  }
+              div.caption {"outside sitting area"}
+            end
+          end
+        end
+      end
+      div.next_button
+    end
+    p :style=>"clear: both;"
+    script {"new UI.Carousel('horizontal_carousel');"}
+    div.enlarge  do
+      em {"Click on arrow to slide or on image to enlarge..."}
+      br
+      span.note {"NOTE: Slider not working in Internet Explorer 8 and 9"}
+      br
+      span.note {"Please, use Firefox, Chrome or any other browser"}
+    end
+end

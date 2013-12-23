@@ -1,0 +1,23 @@
+require 'open-uri'
+require 'pdf-reader'
+
+class WellnessController < ApplicationController
+  
+  def index
+  end
+  
+  def news
+    pdf_filename = File.join(Rails.root, "pdfs/WellnessExpress.pdf")
+    send_file(pdf_filename, :filename => "WellnessExpress.pdf", :disposition => 'inline', :type => "application/pdf")
+  end
+  
+  def two_minute_challenge
+    pdf_filename = File.join(Rails.root, "pdfs/TwoMinuteChallenge.pdf")
+    send_file(pdf_filename, :filename => "TwoMinuteChallenge.pdf", :disposition => 'inline', :type => "application/pdf")
+  end
+  
+  def body_balance
+    pdf_filename = File.join(Rails.root, "pdfs/BodyBalance.pdf")
+    send_file(pdf_filename, :filename => "BodyBalance.pdf", :disposition => 'inline', :type => "application/pdf")
+  end
+end

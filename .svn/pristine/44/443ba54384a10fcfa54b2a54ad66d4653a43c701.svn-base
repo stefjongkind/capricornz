@@ -1,0 +1,27 @@
+html do
+  head do
+   title 'Waiateara Admin'
+   stylesheet_link_tag 'waiateara'
+   javascript_include_tag(:all, :cache => true)
+   title "Waiata Ara | #{@page.title}  | #{@page.section.capitalize}"
+  	 link :rel => "Shortcut Icon", :href => "/images/waiata_icon.png", :type => "image/x-icon" 
+  end
+  body.admin! do
+		div.maintenance! do
+			div :class => :nav do
+				link_to 'Home',  {:controller => '/public'} 
+				span {" | "} 
+				link_to 'Categories',  {:controller => '/admin'} 
+				span {" | "} 
+				link_to 'Introduction',  {:controller => '/intros'} 
+				span {" | "} 
+				link_to 'Logout',  {:controller => '/sessions', :action => :logout}
+			end
+			h1 "Waiateara Admin"
+			div.notice! flash[:notice]
+			div {content_for_layout}
+		end
+	end  	
+end
+
+

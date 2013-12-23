@@ -1,0 +1,47 @@
+
+/*
+body {
+	background-color: #fff;
+}
+#popup {
+	width: 500px;
+}
+*/
+
+div.map {
+	width: 100%;
+	margin-right: 0;
+	height: 800px;
+	float: none;
+}
+
+div.popup {
+  max-width: 600px;
+  padding: 5px;
+  background-color: white;
+	border:1px dotted #eee;
+  /* The following properties should not be changed */
+  position: absolute;
+}
+
+p.popup_link {
+    display: block;
+	margin:2px;
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid #bbdada;
+    background-color: #dee7ed;
+    text-decoration: none;
+    color: #333;
+}
+
+
+span.popup_link, a.popup_link {
+  cursor: pointer;
+  border-bottom: 1px dotted;
+}
+
+.popup_draghandle {
+  cursor: move;
+}
+

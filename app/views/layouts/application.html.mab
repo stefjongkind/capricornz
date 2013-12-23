@@ -1,0 +1,26 @@
+html do
+  head do
+   title 'Waiateara'
+   stylesheet_link_tag 'waiateara', 'lightbox', 'prototype-ui', :media => "all"
+   javascript_include_tag(:all, :cache => true)
+   javascript_include_tag :defaults 
+   javascript_include_tag 'scriptaculous'
+   javascript_include_tag 'prototype'
+   javascript_include_tag 'popup'
+   javascript_include_tag 'carousel'
+   javascript_include_tag 'lightbox'
+   title "Waiata Ara | #{@page.title}  | #{@page.section.capitalize}"
+  	 link :rel => "Shortcut Icon", :href => "/images/waiata_icon.png", :type => "image/x-icon" 
+  end
+  body.admin! do
+		h1 "The official website of the Jongkind Family in Golden Bay"
+		div.notice! flash[:notice]
+    ul.menu! do
+      li {link_to 'Home', {:action => :index}}
+      render :partial => 'category', :collection => Category.find_all_by_parent_id(nil)
+    end
+		div.content! {content_for_layout}
+	end
+end
+
+

@@ -1,0 +1,8 @@
+ul do
+  li :class=> @current_action == 'index' ? 'active' : '' do
+  	span {link_to "Home", :action => :index}
+	end
+  li :class=> @current_action == 'page_2' ? 'active' : '' do
+  	span {link_to "Details", :action => :page_2}
+	end
+end

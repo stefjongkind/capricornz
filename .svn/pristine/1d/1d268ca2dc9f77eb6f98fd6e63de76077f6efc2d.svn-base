@@ -1,0 +1,11 @@
+ <div class='list'>
+	<h2>System Users</h2>
+	<%  @users.each do |user| %>
+	    <em><%=link_to user.login, :action => :edit_user, :id => user %></em><br />
+	 <% end %>
+</div>
+<div id='nav'><%= link_to 'New User', :action => :new_user %></div>
+
+ 
+
+

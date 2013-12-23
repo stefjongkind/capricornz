@@ -1,0 +1,19 @@
+html do
+   head do
+     title 'Waiateara'
+     stylesheet_link_tag 'waiateara'
+     javascript_include_tag(:all, :cache => true)
+     title "Waiata Ara | #{@page.title}  | #{@page.section.capitalize}"
+   	 link :rel => "Shortcut Icon", :href => "/images/waiata_icon.png", :type => "image/x-icon" 
+   end
+  body.admin! do
+  	div.admin! do
+  		div.maintenance! do
+    		h1 "Waiateara Admin"
+    		div.notice! {flash[:notice]}
+    		div {content_for_layout}
+  		end
+		end
+	end
+end
+

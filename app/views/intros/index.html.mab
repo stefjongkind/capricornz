@@ -1,0 +1,20 @@
+div {link_to 'Add Introduction text', :controller => :intros, :action => :new}
+h1 "Introduction"
+table.admin  do 
+  @intros.each do |intro|
+    tr :class => cycle("odd", "even") do
+      td {"Description"}
+      td {""}
+      td {""}
+    end
+    tr do
+      td.content {intro.description}
+      td.content :width => '30' do
+        span {link_to image_tag("/images/pencil.png", :border => '0', :title => "edit description"), edit_intro_path(intro)}
+      end
+       td.content :width => '30' do
+         span {link_to image_tag("/images/delete.png", :border => '0', :title => "delete intro type from database"), intro_path(intro), :confirm => "Are you sure you want to delete this intro?", :method => :delete }
+       end
+    end
+  end
+end

@@ -1,0 +1,27 @@
+html do
+  head do
+    meta :http=>"content-type", :content=>"text/html; charset=utf-8"
+    meta :id=>"SiteTitle_Description", :content=>"Golden Bay, New Zealand, self sufficient property for sale with fabulous views, in prestine native New Zealand beech forest, close to popular beach", :name=>"description"
+     meta :id=>"SiteTitle_Keywords", :content=>"property for sale, New Zealand, Golden Bay, lifestyle, Pohara, Takaka, Anahata Yoga Retreat, eco home, self sufficient, sustainable, eco living", :name=>"keywords"
+  	 meta :content=>"TRUE", :name=>"MSSmartTagsPreventParsing"
+    title "Golden Bay Eco Retreat for Sale, New Zealand"
+    stylesheet_link_tag 'house', 'lightbox', 'prototype-ui', :media => "all"
+    javascript_include_tag :defaults 
+    javascript_include_tag 'scriptaculous'
+    javascript_include_tag 'prototype'
+    javascript_include_tag 'popup'
+    javascript_include_tag 'carousel'
+    javascript_include_tag 'lightbox'
+    
+  end
+  body do
+    div.container! do
+      div.top_tab! do
+        div.tab_left {image_tag "/images/sale/tab.gif", :border=>'0'}
+        div.menu {render :partial=>'menu'}
+        div.tab_right {image_tag "/images/sale/tab_right.gif", :border=>'0'}
+      end
+      div {content_for_layout}
+    end
+  end
+end

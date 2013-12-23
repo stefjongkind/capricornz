@@ -1,0 +1,7 @@
+div.content do
+  div.main_intro! do
+  	p {@intro.description if @intro}
+  end
+end
+
+

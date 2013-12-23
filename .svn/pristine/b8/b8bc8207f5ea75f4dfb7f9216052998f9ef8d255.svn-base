@@ -1,0 +1,7 @@
+div.content do
+  div.main_intro! do
+    p.image {image_tag "/images/home_page.jpg", :border=>'0'}
+  end
+end
+
+

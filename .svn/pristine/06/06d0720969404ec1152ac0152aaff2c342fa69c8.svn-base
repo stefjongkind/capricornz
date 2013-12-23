@@ -1,0 +1,39 @@
+html do
+   head do
+     stylesheet_link_tag  'wellness', 'popup', 'lightbox', :media => "all"
+     javascript_include_tag(:all, :cache => true)
+     javascript_include_tag :defaults 
+     javascript_include_tag 'popup'
+     javascript_include_tag 'lightbox'
+     javascript_include_tag 'prototype'
+     title "Wellness - Abundance - Freedom"
+   	 link :rel => "Shortcut Icon", :href => "/images/waiata_icon.png", :type => "image/x-icon" 
+   end
+  body do
+    div.page_header! do
+      div do
+        h1 {"Wellness - Abundance - Freedom"}
+        p {content_for_layout}
+      end
+      div.page_left_column! do
+        ul do
+          li {link_to "Wellness Express", {:controller => :wellness, :action => :news}, :target => "_blank"}
+          li.note {"Read some amazing testimonials"}
+          li {link_to "Body Balance", {:controller => :wellness, :action => :body_balance}, :target => "_blank"}
+          li.note {"How body balance works<br> at a cellular level"}
+          h3 {"Business"}
+          li {link_to "Asia Pacific Events", "http://lifeforcenz.wordpress.com/", :target => "_blank"}
+          li.note {"Lifeforce Asia Pacific events"}
+          li {link_to "Two Minute Challenge", {:controller => :wellness, :action => :two_minute_challenge}, :target => "_blank"}
+          li.note {"Getting started"}
+        end
+        div.member_id! do
+          ul do
+            li {"ID 20867804"}
+            li.note {"Please, quote the above member ID<br> as your up line"}
+          end
+        end
+      end
+    end
+  end
+end

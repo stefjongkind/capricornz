@@ -1,0 +1,21 @@
+<%= error_messages_for 'news' %>
+
+<!--[form:news]-->
+<div class='dialog'>
+<% form_for :news do |news_item|  %>
+	<p><label for="news_title">Title</label><br/>
+	<%= news_item.text_field :title  %></p>
+
+	<p><label for="news_item">Item</label><br/>
+	<%= news_item.text_area :item, :size => '70x10'  %></p>
+	<% if @news  %>
+	  <%= submit_tag 'Save', :class => :submit %> <%= submit_tag 'Delete', :class => :submit %>
+	<% else  %>
+	  <%= submit_tag 'Create', :class => :submit %>
+	<% end  %>
+ | <%= link_to 'Cancel', :action => :menu %>
+
+<% end  %>
+</div>
+<!--[eoform:news]-->
+

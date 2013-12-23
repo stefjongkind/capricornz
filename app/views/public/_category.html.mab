@@ -1,0 +1,10 @@
+li {link_to category.name, {:controller => :public, :action => :show_category, :id => category}, :onmouseover => "Element.toggle(#{category.name.gsub(/[ &]/,'')});"}
+div.subcat :id => "#{category.name.gsub(/[ &]/,'')}", :style => 'display:none' do
+  ul do
+    category.children.each do |child|
+      li :class => cycle("odd", "even") do
+          span {link_to child.name, {:controller => :public, :action => :show_category, :id => child}}
+      end
+    end
+  end
+end

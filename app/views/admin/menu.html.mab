@@ -1,0 +1,35 @@
+div.list! do
+	h2 "Intro"
+	if @intro
+		p.menu_intro{ @intro.description}
+    div.nav {link_to 'change text', :controller => :intros, :action => :edit, :id => @intro}
+	else
+    div.nav {link_to 'add text', :controller => :intros, :action => :new}
+	end
+	div :class => 'news_item' do
+		h2 "News Items"
+		@news_items.each do |news_item|
+	    link_to news_item.title, :action => :edit_news_item, :id => news_item
+			div {news_item.item}
+		end
+		
+	end
+	div.nav {link_to 'Add Item', :action => :edit_news_item}
+	
+	
+	h2 "Categories"
+	
+	@categories.each do |category|
+    div.nav {link_to category.name, :action => :edit_category, :id => category }
+	end
+	div.nav {link_to 'Add Category', :action => :edit_category }
+	
+	h2 "System"
+  em {link_to 'Users', :action => :list_users }
+end
+div {will_paginate @categories}
+
+
+
+
+

@@ -1,0 +1,29 @@
+html do
+   head do
+     stylesheet_link_tag  'waiateara', 'popup', 'lightbox', :media => "all"
+     javascript_include_tag(:all, :cache => true)
+     javascript_include_tag :defaults 
+     javascript_include_tag 'popup'
+     javascript_include_tag 'lightbox'
+     javascript_include_tag 'prototype'
+     title "Waiata Ara | #{@page.title}  | #{@page.section.capitalize}"
+   	 link :rel => "Shortcut Icon", :href => "/images/waiata_icon.png", :type => "image/x-icon" 
+   end
+  body do
+    div.banner! {image_tag('/images/waiata_banner.gif')}
+    table.main! :cellpadding => '0', :cellspacing => '0' do
+      tr.menu do
+        td.menu do
+          div.menu_column! do
+            ul.menu! do
+              h3 {'Photos'}
+              li {link_to 'Home', {:action => :index}}
+              render :partial => 'category', :collection => Category.find_all_by_parent_id(nil)
+            end
+            td.main {content_for_layout}
+          end
+        end
+      end
+    end
+  end
+end

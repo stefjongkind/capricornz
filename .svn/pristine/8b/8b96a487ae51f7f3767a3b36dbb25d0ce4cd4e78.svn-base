@@ -1,0 +1,32 @@
+#<p class='title'>Waiata Ara System Maintenance</p>
+#
+#<%= error_messages_for 'user' %>
+#    <legend>Please Log In</legend>
+#    <% form_for :user do |f| %>
+#		<table>
+#	      <tr>
+#			<td><label for="name">Name:</label></td>
+#			<td><%= text_field_tag :login, params[:login] %></td>
+#	      </tr>
+#			<tr>
+#				<td><label for="password">Password:</label></td>
+#	 			<td><%= password_field_tag :password, params[:password] %></td>
+#	      </tr>
+#		</table>
+#        <%= submit_tag "Login" %>
+#    <% end   %>
+#
+
+p.title {"Waiata Ara System Maintenance"}
+
+error_messages_for :user
+
+form_for :user do |f|
+  dl do
+  	dd {f.label :name, "Name"}
+  	dd  {text_field_tag :login, params[:login]}
+    dd {f.label :password, "Password"}
+    dd {password_field_tag :password, params[:password]}
+  end
+  submit_tag "Login"
+end
