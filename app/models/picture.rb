@@ -35,7 +35,7 @@ class Picture < ActiveRecord::Base
   
   
   def self.per_page
-    20
+    40
   end
   
 end

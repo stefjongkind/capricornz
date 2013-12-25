@@ -23,7 +23,7 @@ class PublicController < ActionController::Base
   def show_category
     @categories = find_all_categories
     @category = Category.find(params[:id], :include =>[:pictures]) if params[:id]  
-    @pictures = @category.pictures.paginate :page => params[:page], :per_page => 10 , :order => :position
+    @pictures = @category.pictures.paginate :page => params[:page], :per_page => 20 , :order => :position
   end  
 
 

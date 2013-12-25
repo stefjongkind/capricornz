@@ -19,7 +19,7 @@ html do
 			end
 			h1 "Waiateara Admin"
 			div.notice! flash[:notice]
-			div {content_for_layout}
+			div.content_admin! {content_for_layout}
 		end
 	end  	
 end

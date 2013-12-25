@@ -3,6 +3,7 @@ body {
 	padding-top:2em;
 	margin:0;
 	margin:0;
+	width:100%;
 	background:url(/images/home_image.jpg) no-repeat scroll top left;
 }
 
@@ -145,10 +146,6 @@ div#header h1 {
 	height:100%;
 }
 
-#content {
-	
-}
-
 
 #main_intro p {
 	font-family:  helvetica, sans-serif;
@@ -209,7 +206,7 @@ td.menu {
 
 div#category {
 	float:left;
-	width:1400px;
+	width:100%;
 	padding:4em;
 	background:#000;
 }
@@ -297,17 +294,34 @@ div.paginate a {
 div.paginate a:visited { color: #fff; }
 div.paginate a:hover { color: orange }
 
+#content_admin {
+	width:980px;
+	background:white;
+	height:100%;
+	
+}
 
+
+.dialog {
+	margin:0;
+	padding:0;
+	width:990px;
+	color: #000;
+	background:white;
+}
+
+.dialog a {
+	padding-left:3em;
+}
 
 div.image_list {
-	float:left;
-	padding:0;
-	padding-top:1em;
-	padding-left:2em;
+	padding:2em;
 	margin:0;
 	margin-top:10em;
-	width:100%;
+	width:980px;
+	height:auto;
 	overflow:hidden;
+	background:#ce991d;
 }
 
 .image {
@@ -349,6 +363,10 @@ body#admin  {
 	width:80%;
 }
 
+body#admin h1 {
+	margin-left:1em;
+}
+
 #frame {
 	background-color:#fff	;
 	padding:0;
@@ -363,13 +381,19 @@ body#admin  {
 
 #maintenance {
 	padding: 3em;
-	margin-left: 3em;
+	padding-left:0;
+	margin:0;
 	margin-top:1em;
-	width: 88%;
-	height:90%;
+	width: 990px;
+	height:auto;
 	color: #636363;
-	background-color: #eee;
+	background-color: #fff;
 }
+
+#maintenance form {
+	padding-left:3em;
+}
+
 
 div#admin #maintenance  h1 {
 	font-size:   36px;
@@ -384,25 +408,30 @@ div#admin #maintenance  h1 {
 }
 
 #maintenance h1 {
-	font-size: 28px;
+	font-size: 34px;
 	text-align: left;
-	color: #636363
+	color:#8c1914;
 
 }
 #maintenance h2 {
   
   font-size:   20px;
   line-height: 22px;
+	padding:1em;
 	color: #636363;
 }
-
+#maintenance .nav {
+	padding:5px;
+	margin-left:2em;
+	background:#ce991d;
+}
 #maintenance .nav a {
 	padding: 4px;
 	line-height:16px;
- 	color: #5e74a0;
+ 	color: #666;
 }
 #maintenance .nav a:hover {
-	color:orange;
+	color:white;
 }
 
 #maintenance em {
@@ -423,9 +452,13 @@ div#admin #maintenance  h1 {
 	color:#5e74a0;
 }
 
+#maintenance  li {
+	margin-left:1em;
+}
+
 .image_caption {
 	width:250px;
-	color:#5e74a0;
+	color:#eee;
 }
 
 /* End */
@@ -448,7 +481,7 @@ div#admin #maintenance  h1 {
 
 
 div#content {
-	width:680px;
+	width:100%;
 	height:100%;
 	padding:0;
 	margin:0;
@@ -583,11 +616,6 @@ div#image_page_large {
 	color: #7070c1;
 }
 
-.dialog {
-	margin: 10 10 20px;
-	width:90%;
-	color: #000;
-}
 
 .submit {
 	padding: .25em .5em;

@@ -24,16 +24,16 @@ if @category
       end
       p {submit_tag 'Upload'}
     end 
-  end 	
 	
-	div.image_list do
-		p {em {"Pictures"}}
-		@category.pictures.each do |picture| 
-		  div.image do 
- 			 span {link_to image_tag(picture.public_filename(:thumb),  {:class=>"images", :border=>'0', :height => '188'}), :action => :edit_category_picture, :id => picture, :category_id => @category }
-				p.image_caption {picture.description}
-			end
-		end  
+  	div.image_list do
+  		p {em {"Maintain Images"}}
+  		@category.pictures.each do |picture| 
+  		  div.image do 
+   			 span {link_to image_tag(picture.public_filename(:thumb),  {:class=>"images", :border=>'0', :height => '188'}), :action => :edit_category_picture, :id => picture, :category_id => @category }
+  				p.image_caption {picture.description}
+  			end
+  		end  
+  	end
 	end
 end
 

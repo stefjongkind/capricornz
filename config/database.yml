@@ -18,6 +18,6 @@ test:
 production:
   adapter: postgresql
   database: waiatea2_production
-  username: waiatea2
+  username: waiatea2_waiatea2
   password: marama7142
 
