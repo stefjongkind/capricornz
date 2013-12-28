@@ -302,26 +302,15 @@ div.paginate a:hover { color: orange }
 }
 
 
-.dialog {
-	margin:0;
-	padding:0;
-	width:990px;
-	color: #000;
-	background:white;
-}
-
-.dialog a {
-	padding-left:3em;
-}
 
 div.image_list {
 	padding:2em;
 	margin:0;
 	margin-top:10em;
-	width:980px;
+	width:101%;
 	height:auto;
 	overflow:hidden;
-	background:#ce991d;
+	background:#ede;
 }
 
 .image {
@@ -329,8 +318,16 @@ div.image_list {
 	margin:0;
 	margin-top:10px;
 	padding:1em;
+	width:270px;
 	height:220px;
 }
+
+.image_caption {
+	margin-left:3em;
+	width:220px;
+	color:#000;
+}
+
 
 .comment {
 	color:#eee;
@@ -384,16 +381,11 @@ body#admin h1 {
 	padding-left:0;
 	margin:0;
 	margin-top:1em;
-	width: 990px;
+	width: auto;
 	height:auto;
 	color: #636363;
 	background-color: #fff;
 }
-
-#maintenance form {
-	padding-left:3em;
-}
-
 
 div#admin #maintenance  h1 {
 	font-size:   36px;
@@ -456,10 +448,28 @@ div#admin #maintenance  h1 {
 	margin-left:1em;
 }
 
-.image_caption {
-	width:250px;
-	color:#eee;
+.dialog {
+	margin:0;
+	padding:0;
+	width:1080px;
+	height:auto;
+	color: #000;
+	background:white;
 }
+
+#maintenance .dialog form {
+	height:auto;
+	width:90%;
+	padding:2em;
+	padding-left:3em;
+	margin:2em;
+	background-color: #ede;
+}
+
+.dialog a {
+	padding-left:3em;
+}
+
 
 /* End */
 
