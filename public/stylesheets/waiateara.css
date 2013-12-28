@@ -208,7 +208,7 @@ div#category {
 	float:left;
 	width:100%;
 	padding:4em;
-	background:#000;
+	background:#ce991d;
 }
 
 div#menu_column {
@@ -265,7 +265,7 @@ ul#menu h3 {
 	color:#eee;
 }
 
-#menu li a:hover { color:#666; }
+#menu li a:hover { color:#ce991d; }
 
 #menu a {
 	margin:10px;

@@ -25,9 +25,10 @@ class Picture < ActiveRecord::Base
   has_attachment :content_type => :image, 
                  :storage => :file_system, 
                  :max_size => 500.kilobytes,
-                 :resize_to => '500x376',
-                 :thumbnails => { :thumb => '250x188' },
-                 :path_prefix => 'public/pictures'
+                 :resize_to => [500,376],
+                 :thumbnails => { :thumb => [375,188], :geometry => 'x188' },
+                 :path_prefix => 'public/pictures',
+                 :processor => 'MiniMagick'
 
   validates_as_attachment
   
