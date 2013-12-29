@@ -14,12 +14,12 @@
 #
 
 class Category < ActiveRecord::Base
-  has_many :pictures, :order =>:position
+  has_many :pictures, :order =>:position, :dependent => :destroy
   
   # Behaviours
   acts_as_nested_set
   # Callbacks
-  after_save :update_depth
+#  after_save :update_depth
   # Validations  
   validates_uniqueness_of :name
   validates_presence_of :name

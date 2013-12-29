@@ -22,7 +22,7 @@ if @category
         br
         span {f.text_field :position, :size=> '3'}
       end
-      p {submit_tag 'Upload'}
+      p.submit {submit_tag 'Upload'}
     end 
 	
   	div.image_list do
@@ -33,7 +33,7 @@ if @category
   				p.image_caption {picture.description}
   			end
   		end  
-  	end
+  	end  	
 	end
 end
 

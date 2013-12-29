@@ -640,7 +640,6 @@ div#image_page_large {
 	font-size: 11px;
 	display: inline;
 	border: 0;
-	background:url(/images/button_background.jpg);
 	color: #fff;
 	
 }
@@ -653,8 +652,7 @@ div#image_page_large {
 	text-decoration:none;
 	color: #fff;
 }
-.submit:hover {
-	cursor:pointer;
+.submit:hover {#	cursor:pointer;
 }
 
 #submit button {
