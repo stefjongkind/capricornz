@@ -634,16 +634,30 @@ div#image_page_large {
 
 
 .submit {
-	padding: .25em .5em;
-	font-size: 115%;
+	padding:2px;
+	width:84px;
+	height:26px;
+	font-size: 11px;
 	display: inline;
 	border: 0;
+	background:url(/images/button_background.jpg);
 	color: #fff;
 	
 }
 
+.submit a{
+	text-decoration:none;
+	color: #fff;
+}
+.submit a:visited;{
+	text-decoration:none;
+	color: #fff;
+}
+.submit:hover {
+	cursor:pointer;
+}
+
 #submit button {
-	float: right;
 	border: 0;
 	background-color: transparent;
 	width: 150px;

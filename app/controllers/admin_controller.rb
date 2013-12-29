@@ -56,15 +56,11 @@ class AdminController < ApplicationController
     if request.post?
       @category = Category.find_by_id(params[:category_id])
       begin
-        case params[:commit]
-          when 'Save'
-            if params[:uploaded_data]  
-              redirect_to :create_mugshot, :picture => params[:picture], :id => @category
-            else   
-              @picture.update_attributes(params[:picture])
-              flash[:notice] = 'Image was successfully updated.'
-              redirect_to :action => :edit_category, :id => @category     
-            end    
+        if params[:commit] == 'Save'
+          debugger
+          @picture.update_attributes(params[:picture])
+          flash[:notice] = 'Image was successfully updated.'
+          redirect_to :action => :edit_category, :id => @category     
         end  
       rescue ActiveRecord::RecordInvalid => e
         flash[:notice] = 'Image failed.'

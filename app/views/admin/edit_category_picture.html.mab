@@ -1,0 +1,28 @@
+error_messages_for :picture
+unless @picture.blank?
+  div.dialog do
+  	h1 {"Edit Category Image"}
+    form_for :picture, :url => {:action => :edit_category_picture, :id => @picture, :category_id => @category} do |form| 
+      div {p {image_tag(@picture.public_filename) }}
+      div do
+    	  p do
+    	    div {label :picture_caption, "Caption" }
+    	    form.text_area :description, :size => '50x5' 
+    	  end
+      end
+      div do
+    	  p do
+          label :picture_caption, "Sequence" 
+          form.text_field :position, :size=> '3'
+        end
+      end
+      div do
+        submit_tag "Save", :class => :submit 
+        link_to 'Cancel', :action => :edit_category, :id => @category 		
+      end
+      div :align=>'right' do
+         p {link_to 'Delete', :action => :delete_category_picture, :id => @picture, :category_id => @category }
+      end
+    end 
+  end  	
+end
