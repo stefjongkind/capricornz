@@ -307,10 +307,10 @@ div.image_list {
 	padding:2em;
 	margin:0;
 	margin-top:10em;
+	margin-left:3em;
 	width:101%;
 	height:auto;
 	overflow:hidden;
-	background:#ede;
 }
 
 .image {
@@ -318,7 +318,6 @@ div.image_list {
 	margin:0;
 	margin-top:10px;
 	padding:1em;
-	width:250px;
 	height:220px;
 }
 
@@ -336,7 +335,7 @@ div.image_list {
 	vertical-align: top;
 	text-align: left;
 	padding:0;
-	width:auto;
+	width:220px;
 }
 
 .header { 
@@ -381,8 +380,8 @@ body#admin h1 {
 	padding-left:0;
 	margin:0;
 	margin-top:1em;
-	width: auto;
-	height:auto;
+	width: 1200px;
+	height:1350px;
 	color: #636363;
 	background-color: #fff;
 }
@@ -463,7 +462,7 @@ div.confirm {
 
 #maintenance .dialog form {
 	height:auto;
-	width:90%;
+	width:1090px;
 	padding:2em;
 	padding-left:3em;
 	margin:2em;

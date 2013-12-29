@@ -26,7 +26,7 @@ class Picture < ActiveRecord::Base
                  :storage => :file_system, 
                  :max_size => 500.kilobytes,
                  :resize_to => [500,376],
-                 :thumbnails => { :thumb => [375,188] },
+                 :thumbnails => { :thumb => [250,188] },
                  :path_prefix => 'public/pictures',
                  :processor => 'MiniMagick'
 

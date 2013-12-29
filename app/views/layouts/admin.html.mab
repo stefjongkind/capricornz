@@ -1,7 +1,7 @@
 html do
   head do
    title 'Waiateara Admin'
-   stylesheet_link_tag 'waiateara'
+   stylesheet_link_tag 'admin'
    javascript_include_tag(:all, :cache => true)
    title "Waiata Ara | #{@page.title}  | #{@page.section.capitalize}"
   	 link :rel => "Shortcut Icon", :href => "/images/waiata_icon.png", :type => "image/x-icon" 
