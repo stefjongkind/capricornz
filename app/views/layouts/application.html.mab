@@ -13,7 +13,7 @@ html do
   	 link :rel => "Shortcut Icon", :href => "/images/waiata_icon.png", :type => "image/x-icon" 
   end
   body.admin! do
-		h1 "The official website of the Jongkind Family in Golden Bay"
+		h1 "Portfolio Stef Jongkind - Golden Bay"
 		div.notice! flash[:notice]
     ul.menu! do
       li {link_to 'Home', {:action => :index}}

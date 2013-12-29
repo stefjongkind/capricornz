@@ -51,10 +51,11 @@ class CategoriesController < ApplicationController
   def edit
     @category = Category.find(params[:id])
     if request.post?
-      if @category.update_attributes(params[:category])
+      begin
+        @category.update_attributes(params[:category])
         flash[:notice] = 'Category was successfully updated.'
         redirect_to :action => :index
-      else
+      rescue ActiveRecord::RecordInvalid
         flash[:notice] = 'Oops! something went wrong.'
         render :action => :edit, :id => @category
       end

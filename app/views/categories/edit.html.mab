@@ -3,7 +3,7 @@ div.dialog do
 		
 	em {"Category Details"}
 
-	form_for :category, :url => {:controller => :categories, :action => :edit, :id => @category} do |category| 
+	form_for :category, :url => {:controller => :categories, :action => :edit, :category_id => @category} do |category| 
 # 	form_for :category do |category| 
 		p do
 		 span {category.label :category_name, "Category Name"}
