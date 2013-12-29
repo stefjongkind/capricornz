@@ -1,8 +1,6 @@
 form_for :picture, :url => {:action => :delete_category_picture, :id => @picture, :category_id => @category } do |form|
-	div.dialog do
+	div.confirm do
   	p.note {"Click 'Confirm' to permanently remove picture: #{@picture.filename} or 'Cancel' to go back. "}
-  end
-	div.nav! do
 	  p do
 	    span {submit_tag 'Confirm'}
       span {"&nbsp;&nbsp;"}
