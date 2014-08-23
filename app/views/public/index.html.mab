@@ -1,8 +1,7 @@
-div.home_page! do
+div.category! do
   div.paginate {will_paginate @pictures}
   div.image_list do
     div.header! do
-      h1 {"#{@category.name}"}
       div.intro {@category.description}
     end
     @pictures.each do |picture|
