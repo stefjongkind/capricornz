@@ -119,14 +119,6 @@ div#header {
 	width:95%;
 }
 
-div#header h1 {
-	font-family:"Papyrus";
-	font-size:36px;
-	color:#999;
-;
-}
-
-
 #main_bla {
 	width:600px;
 	padding:2em;
@@ -211,6 +203,15 @@ div#category {
 /*	background:#ce991d; */
 	background:#fff;
 }
+div#category h1 {
+	font-family:"Papyrus";
+	font-size:36px;
+	color:#999;
+	padding-left:100px;
+	text-align:left;
+}
+
+
 
 div#menu_column {
 	padding:0;
@@ -306,8 +307,9 @@ div.paginate a:hover { color: orange }
 
 div.image_list {
 	padding:2em;
+	padding-top:1em;
 	margin:0;
-	margin-top:10em;
+	margin-top:5em;
 	margin-left:3em;
 	width:101%;
 	height:auto;
