@@ -312,6 +312,8 @@ div.image_list {
 	width:101%;
 	height:auto;
 	overflow:hidden;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
 }
 
 .image {
