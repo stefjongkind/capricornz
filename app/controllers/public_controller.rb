@@ -7,8 +7,8 @@ class PublicController < ActionController::Base
   
   def index
     @categories = find_all_categories
-    @news_items = News.find(:all, :order => 'updated_on DESC')
-    @intro = Intro.find(:all).first
+    @category = Category.find(:first, :include =>[:pictures]) 
+    @pictures = @category.pictures.paginate :page => params[:page], :per_page => 20 , :order => :position
   end
 
   def find_all_categories

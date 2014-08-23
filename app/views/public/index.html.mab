@@ -1,4 +1,18 @@
 div.home_page! do
+  div.paginate {will_paginate @pictures}
+  div.image_list do
+    div.header! do
+      h1 {"#{@category.name}"}
+      div.intro {@category.description}
+    end
+    @pictures.each do |picture|
+    	div.image do	  
+        div {lightbox_link_to image_tag(picture.public_filename(:thumb), {:class=>"images", :border=>'0'}), picture.public_filename, :rel=>"lightbox[category]"}
+      	div.comment {picture.description}
+    	end
+    end
+  end
+  div.paginate {will_paginate @pictures}
 end
 
 

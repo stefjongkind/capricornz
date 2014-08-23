@@ -4,7 +4,7 @@ body {
 	margin:0;
 	margin:0;
 	width:100%;
-	background:url(/images/home_image.jpg) no-repeat scroll top left;
+/*	background:url(/images/home_image.jpg) no-repeat scroll top left; */
 }
 
 body, p, ol, ul, td {
@@ -41,10 +41,10 @@ p.home_header {
 }
 
 h1 {
-	
+	font-family: sans-serif, helvetica, times;	
 	font-size:   26px;
 	text-align: center;
-	color: #fff;
+	color: #999;
 	
 	
 }
@@ -122,7 +122,7 @@ div#header {
 div#header h1 {
 	font-family:"Papyrus";
 	font-size:36px;
-	color:#eee;
+	color:#999;
 ;
 }
 
@@ -208,7 +208,8 @@ div#category {
 	float:left;
 	width:100%;
 	padding:4em;
-	background:#ce991d;
+/*	background:#ce991d; */
+	background:#fff;
 }
 
 div#menu_column {
@@ -229,7 +230,7 @@ ul#menu {
 	padding-bottom:1em;
 	text-align:left;
 	background:#fff;
-	background:url(/images/menu_background.jpg) no-repeat;
+	color:#999;
 }
 
 div.subcat {
@@ -262,7 +263,7 @@ ul#menu h3 {
 }
 
 #menu li a {
-	color:#eee;
+	color:#999;
 }
 
 #menu li a:hover { color:#ce991d; }
@@ -329,7 +330,7 @@ div.image_list {
 
 
 .comment {
-	color:#eee;
+	color:#999;
 	font-size:11px;
 	line-height:16px;
 	vertical-align: top;

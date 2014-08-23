@@ -4,7 +4,6 @@ body {
 	margin:0;
 	margin:0;
 	width:100%;
-	background:url(/images/home_image.jpg) no-repeat scroll top left;
 }
 
 body, p, ol, ul, td {
@@ -404,7 +403,7 @@ div#admin #maintenance  h1 {
 #maintenance h1 {
 	font-size: 34px;
 	text-align: left;
-	color:#8c1914;
+	color:#666;
 
 }
 #maintenance h2 {
@@ -417,7 +416,7 @@ div#admin #maintenance  h1 {
 #maintenance .nav {
 	padding:5px;
 	margin-left:2em;
-	background:#ce991d;
+	background:#ccc;
 }
 #maintenance .nav a {
 	padding: 4px;
