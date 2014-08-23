@@ -3,16 +3,13 @@ Dir['vendor/plugins/*/recipes/*.rb'].each { |plugin| load(plugin) }
 load 'config/deploy'
 
 after "deploy:update_code", :roles => [:web, :db, :app] do
-#	run "chown -R #{user}:#{user} /home/#{user}/#{applicationdir}" 
 	run "chown -R #{user}:#{user} /home/#{user}/#{applicationdir}" 
 	run "chmod 755 #{release_path}/public -R" 
 	run "rm -rf #{release_path}/public/pictures"
-#	run "mkdir -p #{shared_path}/system/pictures"
 	run "ln -nfs #{shared_path}/system/pictures #{release_path}/public/pictures" 
-#	run "rm -rf #{release_path}/public/uploads"
-#	run "mkdir -p #{shared_path}/system/uploads"
-#	run "ln -nfs #{shared_path}/system/uploads #{release_path}/public/uploads"  
 	run "cd /home/#{user}; mv public_html public_html_bk; ln -s #{current_path}/public ~/public_html"
+	run "ln -s /home/waiatea2/railsapp/capricornz/current/public  ~/public_html/capricornz.com"
+	run "chmod 755 ~/public_html/capricornz.com -R" 
 end
 
 after "deploy:update", "deploy:cleanup" 
