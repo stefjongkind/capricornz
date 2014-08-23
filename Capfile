@@ -8,8 +8,6 @@ after "deploy:update_code", :roles => [:web, :db, :app] do
 	run "rm -rf #{release_path}/public/pictures"
 	run "ln -nfs #{shared_path}/system/pictures #{release_path}/public/pictures" 
 	run "cd /home/#{user}; mv public_html public_html_bk; ln -s #{current_path}/public ~/public_html"
-	run "ln -s /home/waiatea2/railsapp/capricornz/current/public  ~/public_html/capricornz.com"
-	run "chmod 755 ~/public_html/capricornz.com -R" 
 end
 
 after "deploy:update", "deploy:cleanup" 
