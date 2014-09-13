@@ -42,7 +42,7 @@ p.home_header {
 
 h1 {
 	font-family: sans-serif, helvetica, times;	
-	font-size:   20px;
+	font-size:   36px;
 	text-align: center;
 	color: #ccc;
 	
@@ -50,7 +50,8 @@ h1 {
 }
 h2 {
 	
-	font-size:12px;
+	font-family: 'MS Gothic', helvetica, times;	
+	font-size:20px;
 	text-align: left;
 	color: #444;
 }
@@ -204,7 +205,7 @@ div#category {
 	background:#fff;
 }
 div#category h1 {
-	font-family:"Papyrus";
+	font-family:"MS Gothic";
 	font-size:36px;
 	color:#999;
 	padding-left:100px;
@@ -271,7 +272,7 @@ ul#menu h3 {
 
 #menu a {
 	margin:10px;
-	font-family:"papyrus";
+	font-family:"MS Gothic";
 	font-size:16px;
 	line-height:20px;
 	font-style: normal;	
@@ -367,7 +368,16 @@ body#admin  {
 }
 
 body#admin h1 {
+	font-family:'MS Gothic';
+	font-size:20px;
 	margin-left:1em;
+	font-weight:normal;
+}
+
+body#admin h2 {
+	font-family:'MS Gothic';
+	font-size:36px;
+	margin-left:5em;
 }
 
 #frame {

@@ -1,6 +1,6 @@
 div.category! do
   div.paginate {will_paginate @pictures}
-  h1 {"#{@category.name}"}
+  h2 {"#{@category.name}"}
   div.image_list do
     div.header! do
       div.intro {@category.description}
