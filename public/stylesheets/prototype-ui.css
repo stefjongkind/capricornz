@@ -1,90 +1,123 @@
 /* Horizontal Carousel */
 #horizontal_carousel {
-  float: left;
-  width: 1190px;
-  height: 273px;
-  margin-bottom: 10px;
-  position: relative;
+	width:100%;
+	height:250px;
+	margin-bottom: 0;
+	position: absolute;
 }
 
 #horizontal_carousel .container {
-  float: left;
-  padding-left:10px;
-  width: 1050px;
-  height: 273px;
-  position: relative;    
-  overflow: hidden;
-  margin-left:2em;
+	margin-left:0;
+	width:100%;
+	height: 250px;
+	position: relative;    
+	z-index: 50;
+
 }
 
-#horizontal_carousel div.carousel {
+#horizontal_carousel ul {
   margin: 0;
   padding:0;
-  width: 100000px;
+  width: 5000px;
   position: relative;
   top: 0;
   left: 0;
+  right: 32px;
+  height: 250px;
   overflow: hidden;
-  }  
-                    
-#horizontal_carousel div.carousel a {
-	text-decoration:none;
-}
+}                      
 
-
-#horizontal_carousel div.carousel li {
-  width: 344px;
-  height: 238px;
-padding-left:12px;
-  text-align: left; 
-  list-style:none;   
-  float:left;
-  background:url(/images/sale/photo_frame.gif) no-repeat;
-}
-
-#horizontal_carousel div.carousel li img {
+#horizontal_carousel ul li {
+	float:left;
+	width:250;
+	height: 188px;
+	margin-right:10px;
+	margin-left:0;
 	padding:0;
+	text-align: center; 
+	list-style:none;   
+	cursor: pointer;
+}
+ li.grow img {
+	width:250px;
 	margin:0;
-	width:310px;
-	height:215px;
-	padding-top:9px;
+	padding:0;
+	height: 188px;
+	-o-box-shadow:      0 8px 15px #555;
+	-icab-box-shadow:   0 8px 15px #555;
+	-khtml-box-shadow:  0 8px 15px #555;
+	-moz-box-shadow:    0 8px 15px #555;
+	-webkit-box-shadow: 0 8px 15px #555;
+	box-shadow:         0 8px 15px #555;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+/*GROW*/
+ 
+li.grow img:hover {
+	width: 252px;
+	height:189px;
+
 }
 
+#left_fixed {
+	position:absolute;
+	left:20;
+	top:85;
+	width: 32px;
+	height: 100px;
+	margin:0;
+	padding:0;
+}
+#right_fixed {
+	position:absolute;
+	right:20;
+	top:85;
+	width: 32px;
+	height: 100px;
+	margin:0;
+	padding:0;
+}
 #horizontal_carousel .previous_button {
-  float:left;  
-  width:50px;
-  height: 238px;
-  background: url(/images/sale/carousel/left.png) no-repeat;
-  z-index: 100;
-  cursor: pointer;
-}
-
-#horizontal_carousel .next_button {
-  position:absolute;
-right:2em;
-  width:50px;
-  height: 238px;
-  background: url(/images/sale/carousel/right.png) no-repeat;
-  z-index: 200;
-  cursor: pointer;
+	position:absolute;
+	left:0;
+	top:0;
+	width: 32px;
+	height: 100px;
+	background: url(/images/projects/laquo.png) no-repeat;
+	z-index: 100;
+	cursor: pointer;
 }
 
 #horizontal_carousel .previous_button_over {
-  background: url(/images/sale/carousel/left_over.png) no-repeat;
+  background: url(/images/projects/left_over.png) no-repeat;
 }
 
 #horizontal_carousel .previous_button_disabled {
-  background: url(/images/sale/carousel/left_disabled.png) no-repeat;
+  background: url(/images/projects/left_disabled.png) no-repeat;
   cursor: default;
 }
 
+#horizontal_carousel .next_button {
+	position:absolute;
+	left:0;
+	top:0;
+	width: 32px;
+	height: 100px;
+	background: url(/images/projects/raquo.png) no-repeat;
+	z-index: 100;
+	cursor: pointer;
+}
 
 #horizontal_carousel .next_button_over {
-  background: url(/images/sale/carousel/right_over.png) no-repeat;
+  background: url(/images/projects/right_over.png) no-repeat;
 }
 
 #horizontal_carousel .next_button_disabled {
-  background: url(/images/sale/carousel/right_disabled.png) no-repeat;
+  background: url(/images/projects/right_disabled.png) no-repeat;
   cursor: default;
 }
 
