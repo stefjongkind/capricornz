@@ -2,7 +2,7 @@ body {
 	font-family:Verdana, Helvetica, Arial,  sans-serif;
 	padding:0;
 	margin:0;
-	background-color:#1b81b0;
+	background-color:#fff;
 	color:#444;
 	}
 	
@@ -149,6 +149,7 @@ div#previous a {padding: 32px 0 0 0; overflow: hidden; height: 0px !important;}
 div#previous a  {height:32px;width: 265px; background: url(/images/sale/previous.gif) top left no-repeat;text-decoration:none;}
 div#previous a:hover  {background-position: 0 -54px;}
 
+#image_strip {float:left;width:120%;height:250px;margin-bottom:30px;position:relative;top:0;overflow:hidden;}
 
 
 div#content {
@@ -159,7 +160,7 @@ div#content {
 }
 
 div#content_index {
-	height:1600px;
+	height:1800px;
 	background:white;
 	padding:2em;
 	text-align:center;
@@ -195,7 +196,7 @@ div.caption {
 }
 
 div#top_tab {
-	background:#d77b41;
+	background:#fff;
 	padding:0;
 	margin:0;
 	width:100%;

@@ -535,8 +535,8 @@ UI.Carousel = Class.create(UI.Options, {
     this.setOptions(options);
     this.element = $(element);
     this.id = this.element.id;
-    this.container = this.element.down(this.options.container).firstDescendant();
-    this.elements = this.container.childElements();
+    this.container   = this.element.down(this.options.container).firstDescendant();
+    this.elements    = this.container.childElements();
     this.previousButton = this.options.previousButton == false ? null : this.element.down(this.options.previousButton);
     this.nextButton = this.options.nextButton == false ? null : this.element.down(this.options.nextButton);
 

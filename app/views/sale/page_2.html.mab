@@ -1,144 +1,89 @@
 div.content! do
   div.title { h1 {"Birds Clearing, Golden Bay, New Zealand"}}
 #  h1 {"Images of the house"}
-  div.horizontal_carousel! do
-    h2 {"Take a tour of the surroundings..."}
-    div.previous_button
-    div.container do
-      div.carousel do
-        li do
-          a :href=>"/images/sale/carousel/strip_17_large.jpg", :rel=>"lightbox[set1]",  :title=>"Golden Bay View" do 
-            div.image {image_tag "/images/sale/carousel/strip_17.jpg", :alt=>"Golden Bay View", :border => '0'  }
-            div.caption {"Golden Bay View"}
+  div.image_strip! do
+    div.horizontal_carousel! do
+      div.left_fixed! {div.previous_button {}}
+      div.container do
+        ul do
+          li.grow do
+            a :href=>"/images/sale/carousel/strip_17_large.jpg", :rel=>"lightbox[set1]",  :title=>"Golden Bay View" do 
+              div.image {image_tag "/images/sale/carousel/strip_17.jpg", :alt=>"Golden Bay View", :border => '0'  }
+              div.caption {"Golden Bay View"}
+            end
+          end
+          li.grow do
+            a :href=>"/images/sale/carousel/strip_20_large.jpg", :rel=>"lightbox[set1]",  :title=>"Farewell Spit" do 
+              div.image {image_tag "/images/sale/carousel/strip_20.jpg", :alt=>"Farewell Spit", :border => '0'  }
+              div.caption {"Farewell Spit"}
+            end
+          end
+          li.grow do
+            a :href=>"/images/sale/carousel/strip_18_large.jpg", :rel=>"lightbox[set1]",  :title=>"view from the deck" do 
+              div.image {image_tag "/images/sale/carousel/strip_18.jpg", :alt=>"view from the deck", :border => '0'  }
+              div.caption {"View from the deck"}
+            end
+          end
+          li.grow do
+            a :href=>"/images/sale/carousel/strip_19_large.jpg", :rel=>"lightbox[set1]",  :title=>"deck and garden below" do 
+              div.image {image_tag "/images/sale/carousel/strip_19.jpg", :alt=>"deck and garden below", :border => '0'  }
+              div.caption {"deck and garden below"}
+            end
+          end
+          li.grow do
+            a :href=>"/images/sale/carousel/strip_28_large.jpg", :rel=>"lightbox[set1]",  :title=>"birds perspective" do 
+              div.image {image_tag "/images/sale/carousel/strip_28.jpg", :alt=>"birds perspective", :border => '0'  }
+              div.caption {"birds perspective"}
+            end
+          end
+          li.grow do
+            a :href=>"/images/sale/carousel/strip_21_large.jpg", :rel=>"lightbox[set1]",  :title=>"native beech forest" do 
+              div.image {image_tag "/images/sale/carousel/strip_21.jpg", :alt=>"native beech forest", :border => '0'  }
+              div.caption {"native beech forest"}
+            end
+          end
+          li.grow do
+            a :href=>"/images/sale/carousel/strip_22_large.jpg", :rel=>"lightbox[set1]",  :title=>"view towards nelson" do 
+              div.image {image_tag "/images/sale/carousel/strip_22.jpg", :alt=>"view towards nelson", :border => '0'  }
+              div.caption {"view towards nelson"}
+            end
+          end
+          li.grow do
+            a :href=>"/images/sale/carousel/strip_23_large.jpg", :rel=>"lightbox[set1]",  :title=>"birds clearing" do 
+              div.image {image_tag "/images/sale/carousel/strip_23.jpg", :alt=>"birds clearing", :border => '0'  }
+              div.caption {"Birds Clearing"}
+            end
+          end
+          li.grow do
+            a :href=>"/images/sale/carousel/strip_27_large.jpg", :rel=>"lightbox[set1]",  :title=>"sleep out" do 
+              div.image {image_tag "/images/sale/carousel/strip_27.jpg", :alt=>"sleep out", :border => '0'  }
+              div.caption {"sleep out"}
+            end
+          end
+          li.grow do
+            a :href=>"/images/sale/carousel/strip_30_large.jpg", :rel=>"lightbox[set1]",  :title=>"sleep out" do 
+              div.image {image_tag "/images/sale/carousel/strip_30.jpg", :alt=>"sleep out", :border => '0'  }
+              div.caption {"sleep out"}
+            end
+          end
+          li.grow do
+            a :href=>"/images/sale/carousel/strip_31_large.jpg", :rel=>"lightbox[set1]",  :title=>"forest magic" do 
+              div.image {image_tag "/images/sale/carousel/strip_31.jpg", :alt=>"forest magic", :border => '0'  }
+              div.caption {"forest magic"}
+            end
+          end
+          li.grow do
+            a :href=>"/images/sale/carousel/strip_32_large.jpg", :rel=>"lightbox[set1]",  :title=>"winter magic" do 
+              div.image {image_tag "/images/sale/carousel/strip_32.jpg", :alt=>"winter magic", :border => '0'  }
+              div.caption {"winter magic"}
+            end
           end
         end
-        li do
-          a :href=>"/images/sale/carousel/strip_20_large.jpg", :rel=>"lightbox[set1]",  :title=>"Farewell Spit" do 
-            div.image {image_tag "/images/sale/carousel/strip_20.jpg", :alt=>"Farewell Spit", :border => '0'  }
-            div.caption {"Farewell Spit"}
-          end
-        end
-        li do
-          a :href=>"/images/sale/carousel/strip_18_large.jpg", :rel=>"lightbox[set1]",  :title=>"view from the deck" do 
-            div.image {image_tag "/images/sale/carousel/strip_18.jpg", :alt=>"view from the deck", :border => '0'  }
-            div.caption {"View from the deck"}
-          end
-        end
-        li do
-          a :href=>"/images/sale/carousel/strip_19_large.jpg", :rel=>"lightbox[set1]",  :title=>"deck and garden below" do 
-            div.image {image_tag "/images/sale/carousel/strip_19.jpg", :alt=>"deck and garden below", :border => '0'  }
-            div.caption {"deck and garden below"}
-          end
-        end
-        li do
-          a :href=>"/images/sale/carousel/strip_28_large.jpg", :rel=>"lightbox[set1]",  :title=>"birds perspective" do 
-            div.image {image_tag "/images/sale/carousel/strip_28.jpg", :alt=>"birds perspective", :border => '0'  }
-            div.caption {"birds perspective"}
-          end
-        end
-#        li do
-#          a :href=>"/images/sale/carousel/strip_29_large.jpg", :rel=>"lightbox[set1]",  :title=>"out the front door" do 
-#            div.image {image_tag "/images/sale/carousel/strip_29.jpg", :alt=>"out the front door"  }
-#            div.caption {"out the front door"}
-#          end
-#        end
-        li do
-          a :href=>"/images/sale/carousel/strip_21_large.jpg", :rel=>"lightbox[set1]",  :title=>"native beech forest" do 
-            div.image {image_tag "/images/sale/carousel/strip_21.jpg", :alt=>"native beech forest", :border => '0'  }
-            div.caption {"native beech forest"}
-          end
-        end
-        li do
-          a :href=>"/images/sale/carousel/strip_22_large.jpg", :rel=>"lightbox[set1]",  :title=>"view towards nelson" do 
-            div.image {image_tag "/images/sale/carousel/strip_22.jpg", :alt=>"view towards nelson", :border => '0'  }
-            div.caption {"view towards nelson"}
-          end
-        end
-        li do
-          a :href=>"/images/sale/carousel/strip_23_large.jpg", :rel=>"lightbox[set1]",  :title=>"birds clearing" do 
-            div.image {image_tag "/images/sale/carousel/strip_23.jpg", :alt=>"birds clearing", :border => '0'  }
-            div.caption {"Birds Clearing"}
-          end
-        end
-        li do
-          a :href=>"/images/sale/carousel/strip_27_large.jpg", :rel=>"lightbox[set1]",  :title=>"sleep out" do 
-            div.image {image_tag "/images/sale/carousel/strip_27.jpg", :alt=>"sleep out", :border => '0'  }
-            div.caption {"sleep out"}
-          end
-        end
-        li do
-          a :href=>"/images/sale/carousel/strip_30_large.jpg", :rel=>"lightbox[set1]",  :title=>"sleep out" do 
-            div.image {image_tag "/images/sale/carousel/strip_30.jpg", :alt=>"sleep out", :border => '0'  }
-            div.caption {"sleep out"}
-          end
-        end
-        li do
-          a :href=>"/images/sale/carousel/strip_31_large.jpg", :rel=>"lightbox[set1]",  :title=>"forest magic" do 
-            div.image {image_tag "/images/sale/carousel/strip_31.jpg", :alt=>"forest magic", :border => '0'  }
-            div.caption {"forest magic"}
-          end
-        end
-        li do
-          a :href=>"/images/sale/carousel/strip_32_large.jpg", :rel=>"lightbox[set1]",  :title=>"winter magic" do 
-            div.image {image_tag "/images/sale/carousel/strip_32.jpg", :alt=>"winter magic", :border => '0'  }
-            div.caption {"winter magic"}
-          end
-        end
+          # END CONTAINER
       end
-        # END CONTAINER
+      #END CAROUSEL
+      div.right_fixed! {div.next_button {}}
     end
-    #END CAROUSEL
-    div.next_button
-  end
-  p :style=>"clear: both;"
-  script {"new UI.Carousel('horizontal_carousel');"}
-  div.enlarge  do
-    em {"Click on arrow to slide or on image to enlarge..."}
-    br
-    span.note {"NOTE: Slider not working in Internet Explorer 8 and 9"}
-    br
-    span.note {"Please, use Firefox, Chrome or any other browser"}
-  end
-  div.promo! do
-    em {""}
-    div.text {"<strong>Imagine yourself living in a stunning, natural environment, with amazing views towards Farewell Spit</strong><br>If you want to live a more sustainable life style, away from it all, but not too far away from town, this might be the place for you! Your own private magical beech forest, a couple of walking tracks through the bush and an alternative access to the Abel Tasman Park in one of the most beautiful places of Golden Bay. It is only 20 minutes drive to the nearest beach (Pohara) and 30 minutes to Takaka township. If you are into spiritual yoga, there is Anahata Yoga Retreat next door. A mountain bike track from the top of Birds Clearing leads down to Pohara and the beach. This is one of the most sought after life style area's of New Zealand. It is only a 20 minute walk to an alternative entrance to the Abel Tasman National Park, then you can walk on to the Inland and the Coastal Abel Tasman Track. A trampers delight! There is plenty of space to grow your own veggies and keep the chooks. Don't miss this opportunity! Come, check it out for yourself and be amazed! "}
-    div.promo_text do
-      h1 {"Featuring"}
-      p {"- 3.19 hectares of native forest ..........."}
-      p {"- North facing with all day sun ..............."}
-      p {"- Safely situated above sea level .............."}
-      p {"- 20 minutes drive to popular Pohara beach"}
-      p {"- 30 minutes drive to Takaka township ......"}
-    end
-    div.promo_text do
-      h1 {"Utilities"}
-      p {"- Water heating: solar, califont &amp; wetback"}
-      p {"- Cooking: 5 burner gas cook top and oven "}
-      p {"- Heating: Wagener wood burner ............"}
-      p {"- Phone: Telecom landline "}
-      p {"- Cellphone reception"}
-      p {"- Wireless high speed internet"}
-    end
-    div.promo_text do
-      h1 {"Electrical"}
-      p {"- Power: 2 x 130W photovoltaic panels ...."}
-      p {"- Trace Inverter: 1500W modified square"}
-      p {"- 2 x 6V cell batteries: 300 amp hour total"}
-      p {"- Above system can be upgraded if needed"}
-      p {"- 6.5KVA Honda petrol backup generator ..."}
-    end
-    div.promo_text do
-      h1 {"Building"}
-      p {"- Structure: Timber frame on pole platform"}
-      p {"- Cladding: macrocarpa board &amp; batten"}
-      p {"- Interior: lime plastered netting mesh on straw"}
-      p {"- Deck: surrounding east, north and west side"}
-      p {"- Sleepout 4x2.5m: "}
-      p {"&nbsp;&nbsp;&nbsp;&nbsp;cladding: plywood"}
-      p {"&nbsp;&nbsp;&nbsp;&nbsp;loft  "}
-    end
-    render :partial => 'contact'
-    
   end
 end
 

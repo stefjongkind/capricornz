@@ -545,9 +545,9 @@ Effect.Appear = function(element) {
   from: (element.getStyle('display') == 'none' ? 0.0 : element.getOpacity() || 0.0),
   to:   1.0,
   // force Safari to render floated elements properly
-  afterFinishInternal: function(effect) {
-    effect.element.forceRerendering();
-  },
+//  afterFinishInternal: function(effect) {
+//    effect.element.forceRerendering();
+//  },
   beforeSetup: function(effect) {
     effect.element.setOpacity(effect.options.from).show(); 
   }}, arguments[1] || { });
