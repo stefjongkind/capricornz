@@ -120,39 +120,29 @@ div#header {
 	width:95%;
 }
 
-#main_bla {
-	width:600px;
-	padding:2em;
-	margin-left: 2em;
-	color:white;
-	text-align:left;
-	
-	font-size:10px;
-	background:#e7eefc;
-	color:#555;
-}
-
-#home_page {
+body#public  {
+	background-color: #fff;
 	padding:0;
+	padding-top:3em;
 	margin:0;
-	width:1000px;
-	height:100%;
+	margin-left:5em;
+	width:80%;
 }
 
-
-#main_intro p {
-	font-family:  helvetica, sans-serif;
-	font-size:14px;
-	font-style:italic;
+body#public h1 {
+	font-family:'MS Gothic';
+	font-size:48px;
+	margin-left:1em;
 	font-weight:normal;
-	line-height:18px;
-	height:400px;
-	width:500px;
-	color:#444;
-	padding:3em;
-	margin-top:5em;
 }
 
+body#public h2 {
+	font-family:'MS Gothic';
+	font-size:36px;
+	margin-left:1em;
+	text-align: center;
+	color: #ccc;
+}
 #table {
 	background:#f49923;
 	margin:0;
@@ -212,6 +202,12 @@ div#category h1 {
 	text-align:left;
 }
 
+div#category h2 {
+	font-family:'MS Gothic';
+	font-size:36px;
+	text-align: center;
+	color: #444;
+}
 
 div#menu_column {
 	padding:0;

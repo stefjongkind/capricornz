@@ -58,7 +58,6 @@
 /*GROW*/
  
 .grow img:hover {
-  height:190px;
 	border:2px;
 	border-style: solid;
 	border-color:orange;

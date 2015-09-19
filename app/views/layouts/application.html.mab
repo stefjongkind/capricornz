@@ -12,7 +12,7 @@ html do
    title "CapricorNZ | #{@page.title}  | #{@page.section.capitalize}"
   	 link :rel => "Shortcut Icon", :href => "/images/waiata_icon.png", :type => "image/x-icon" 
   end
-  body.admin! do
+  body.public! do
 		h1 {"CAPRICORNZ.COM"}
 		h2 {"Web Development, Photography"}
 		div.notice! flash[:notice]
