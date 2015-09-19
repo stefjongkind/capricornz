@@ -1,9 +1,9 @@
 html do
   head do
-   title 'Waiateara Admin'
+   title 'Capricorn NZ - Admin'
    stylesheet_link_tag 'admin'
    javascript_include_tag(:all, :cache => true)
-   title "Waiata Ara | #{@page.title}  | #{@page.section.capitalize}"
+   title "Capricorn NZ | #{@page.title}  | #{@page.section.capitalize}"
   	 link :rel => "Shortcut Icon", :href => "/images/waiata_icon.png", :type => "image/x-icon" 
   end
   body.admin! do
@@ -17,7 +17,7 @@ html do
 				span {" | "} 
 				link_to 'Logout',  {:controller => '/sessions', :action => :logout}
 			end
-			h1 "Waiateara Admin"
+			h1 "Capricorn NZ - Admin"
 			div.notice! flash[:notice]
 			div.content_admin! {content_for_layout}
 		end
