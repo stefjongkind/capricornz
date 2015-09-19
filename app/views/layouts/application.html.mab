@@ -14,7 +14,7 @@ html do
   end
   body.public! do
 		h1 {"CAPRICORNZ.COM"}
-		h2 {"Web Development, Photography"}
+		h2 {"Web business solutions; Photography"}
 		div.notice! flash[:notice]
     ul.menu! do
       li {link_to 'Home', {:action => :index}}

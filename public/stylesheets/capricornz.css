@@ -138,7 +138,7 @@ body#public h1 {
 
 body#public h2 {
 	font-family:'MS Gothic';
-	font-size:36px;
+	font-size:28px;
 	margin-left:1em;
 	text-align: center;
 	color: #ccc;
@@ -347,7 +347,11 @@ div.image_list {
 	font-weight: bold;
 }
 div.intro {
-	color:#eee;
+	width:80%;
+	margin-top:1em;
+	color:#999;
+	text-align:center;
+	font-size:16px;
 }
 
 
