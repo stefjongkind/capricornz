@@ -7,7 +7,7 @@ class PublicController < ActionController::Base
   
   def index
     @categories = find_all_categories
-    @category = Category.find(:first, :include =>[:pictures]) 
+    @category = Category.find(:last, :include =>[:pictures]) 
     @pictures = @category.pictures.paginate :page => params[:page], :per_page => 20 , :order => :position
   end
 
