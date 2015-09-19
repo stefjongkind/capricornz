@@ -1,6 +1,6 @@
 html do
   head do
-   title 'CapricorNZ'
+   title 'Capricorn New Zealand'
    stylesheet_link_tag 'capricornz', 'reset', 'lightbox', 'prototype-ui', :media => "all"
    javascript_include_tag(:all, :cache => true)
    javascript_include_tag :defaults 
@@ -9,7 +9,7 @@ html do
    javascript_include_tag 'popup'
    javascript_include_tag 'carousel'
    javascript_include_tag 'lightbox'
-   title "CapricorNZ | #{@page.title}  | #{@page.section.capitalize}"
+   title "Capricorn New Zealand | #{@page.title}  | #{@page.section.capitalize}"
   	 link :rel => "Shortcut Icon", :href => "/images/waiata_icon.png", :type => "image/x-icon" 
   end
   body.public! do
