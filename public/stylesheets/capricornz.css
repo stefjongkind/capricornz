@@ -213,7 +213,6 @@ div#category h1 {
 }
 
 
-
 div#menu_column {
 	padding:0;
 	margin:0;
@@ -377,7 +376,9 @@ body#admin h1 {
 body#admin h2 {
 	font-family:'MS Gothic';
 	font-size:36px;
-	margin-left:5em;
+	margin-left:1em;
+	text-align: center;
+	color: #ccc;
 }
 
 #frame {
