@@ -89,7 +89,19 @@ li {
 	list-style:none;
 }
 
-
+div#contact {
+	padding-top:4em;
+	
+}
+div#contact p {
+	font-family:'MS Gothic';
+	font-size:28px;
+	margin-left:1em;
+	text-align: center;
+	line-height:34px;
+	color: #777;
+	
+}
 div#main_tab {
 	text-align: center; 
 }
@@ -257,6 +269,7 @@ ul#menu h3 {
 #menu li {
 	line-height:18px;
 	padding-bottom:2px;
+	color:#999;
 }
 
 #menu li a {

@@ -8,6 +8,7 @@ class PublicController < ActionController::Base
   def index
     @categories = find_all_categories
     @category = Category.find(:last, :include =>[:pictures]) 
+    @intro = Intro.find(:last)
     @pictures = @category.pictures.paginate :page => params[:page], :per_page => 20 , :order => :position
   end
 
@@ -25,6 +26,12 @@ class PublicController < ActionController::Base
     @category = Category.find(params[:id], :include =>[:pictures]) if params[:id]  
     @pictures = @category.pictures.paginate :page => params[:page], :per_page => 20 , :order => :position
   end  
+
+  def contact
+    @categories = find_all_categories
+    @category = Category.find(:last, :include =>[:pictures]) 
+    @pictures = @category.pictures.paginate :page => params[:page], :per_page => 20 , :order => :position
+  end
 
 
   def find_all_categories

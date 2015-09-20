@@ -1,9 +1,8 @@
 div.category! do
   div.paginate {will_paginate @pictures}
-  div.intro {"Development of business solutions on the web"}
   div.image_list do
     div.header! do
-     
+      div.intro {@intro.description if @intro}     
     end
     @pictures.each do |picture|
     	div.image do	  
