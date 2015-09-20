@@ -217,7 +217,8 @@ div#category h1 {
 div#category h2 {
 	font-family:'MS Gothic';
 	font-size:36px;
-	text-align: center;
+	text-align: left;
+	margin-left:2em;
 	color: #444;
 }
 
