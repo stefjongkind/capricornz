@@ -1,0 +1,15 @@
+h1 "Categories"
+div.list! do
+  div {link_to 'Add category', new_admin_category_path}
+  table.categories  do
+    thead do
+      tr :class => cycle("odd", "even") do
+        th.categories {"Category"}
+#        th.categories {"Images"}
+      end
+    end
+    tbody :id => "catlist" do
+      render :partial => 'categories_tree'
+    end
+  end
+end

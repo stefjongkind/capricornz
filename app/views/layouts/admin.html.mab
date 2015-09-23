@@ -13,8 +13,8 @@ html do
 				span {" | "} 
 				link_to 'Categories',  {:controller => '/admin'} 
 				span {" | "} 
-				link_to 'Introduction',  {:controller => '/intros'} 
-				span {" | "} 
+#				link_to 'Introduction',  {:controller => '/intros'} 
+#				span {" | "} 
 				link_to 'Logout',  {:controller => '/sessions', :action => :logout}
 			end
 			h1 "Capricorn NZ - Admin"

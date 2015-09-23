@@ -336,14 +336,17 @@ div.image_list {
 	padding:1em;
 	height:220px;
 }
-
+.image img {
+	height:188px;
+}
 .image_caption {
 	margin-left:3em;
 	width:auto;
 	color:#000;
 }
-
-
+div.category_picture img {
+	height:188px;	
+}
 .comment {
 	color:#999;
 	font-size:11px;

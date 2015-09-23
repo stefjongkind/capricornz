@@ -1,10 +1,11 @@
 ActionController::Routing::Routes.draw do |map|
 
   map.resources :intros
-  map.connect 'admin', :controller => 'categories'
+  map.connect 'admin', :controller => '/admin/categories'
+  
   map.namespace(:admin) do |admin|
-    admin.connect '', :controller => 'categories'
     admin.resources :categories
+    admin.resources :pictures
   end
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -30,5 +31,4 @@ ActionController::Routing::Routes.draw do |map|
   map.connect ':controller/:action/:id'
   map.connect 'public/:action', :controller => 'public'
   map.connect 'logout/:action', :controller => 'sessions'
-  map.connect 'admin/:action',  :controller => 'admin'
 end

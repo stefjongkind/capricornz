@@ -1,0 +1,30 @@
+error_messages_for :picture
+h2 {"Category: <font color='#052d80'> #{@category.name} </font>"}
+
+unless @picture.blank?
+  div.dialog do
+  	h2 {"Edit Image"}
+    form_for :picture, :url => admin_picture_path(@picture, :category_id => @category), :html => {:method => :put } do |picture|
+      div.category_picture {image_tag(@picture.public_filename) } 
+      div do
+    	  p do
+    	    div {label :picture_caption, "Caption" }
+    	    picture.text_area :description, :size => '50x5' 
+    	  end
+      end
+      div do
+    	  p do
+          label :picture_caption, "Sequence" 
+          picture.text_field :position, :size=> '3'
+        end
+      end
+      div do
+        p.submit {submit_tag 'Save'}
+        link_to 'Cancel', edit_admin_category_path(@category)		
+      end
+      div :align=>'right' do
+  			 span {link_to image_tag("/images/delete_x.png", :border => '0', :title => "delete picture from database"),  admin_picture_path(@picture, :category_id => @category), :confirm => "Are you sure you want to delete this picture? This action cannot be undone", :method => :delete }
+      end
+    end 
+  end  	
+end

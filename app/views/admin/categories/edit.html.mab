@@ -1,0 +1,56 @@
+div.dialog do
+  link_to 'Back', admin_categories_path
+  link_to 'View category page', :controller => :public, :action => :show_category, :id => @category 
+	h1 {"#{@category.name}"}
+  form_for :category, :url => admin_category_path(@category), :html => {:method => :put } do |category|
+  	em {"Category Details"}
+		p do
+		 span {category.label :category_name, "Name"}
+		 br
+		 span {category.text_field :name}
+		end
+		p do
+		 span {category.label :category_description, "Introduction"}
+		 br
+		 span {category.text_area :description, :size => '59x10'}  
+		end
+			 p.submit {submit_tag 'Save'}
+			 span {" | "}   
+			 span {link_to 'Cancel', admin_categories_path}
+			 span {" | "}   
+			 span {link_to image_tag("/images/delete_x.png", :border => '0', :title => "delete category from database"),  admin_category_path(@category), :confirm => "Are you sure you want to delete category #{@category.name}?", :method => :delete }
+	end  
+end
+div.image_list do
+	p {em {"Images"}}
+	@category.pictures.each do |picture| 
+	  div.image do 
+#    			 span {link_to image_tag(picture.public_filename(:thumb),  {:class=>"images", :border=>'0', :height => '188'}), :action => :edit_category_picture, :id => picture, :category_id => @category }
+ 			 span {link_to image_tag(picture.public_filename(:thumb),  {:class=>"images", :border=>'0', :height => '188'}), edit_admin_picture_path( picture, :category_id => @category) }
+			p.image_caption {picture.description}
+		end
+	end 
+end 
+div.dialog do
+	h2 {"Upload New Image"}
+  error_messages_for :picture 
+  form_for(:picture, :url => {:action => :create_mugshot, :id => @category }, :html => { :multipart => true }) do |f| 
+    div do
+      span {f.label :picture_filename, "File"}
+      br
+      span {f.file_field :uploaded_data, :size => '40' }
+    end
+    div do
+      span {f.label :experience_image, "Caption"}
+      br
+      span {f.text_area :description, :size => '40x5' }
+    end
+    div do
+      span {f.label :picture_position, "Sequence"}
+      br
+      span {f.text_field :position, :size=> '3'}
+    end
+    p.submit {submit_tag 'Upload'}
+  end 
+end
+

@@ -1,0 +1,11 @@
+form_for :picture, :url => {:action => :delete_category_picture, :id => @picture, :category_id => @category } do |form|
+	div.confirm do
+  	p.note {"Click 'Confirm' to permanently remove picture: #{@picture.filename} or 'Cancel' to go back. "}
+	  p do
+	    span {submit_tag 'Confirm'}
+      span {"&nbsp;&nbsp;"}
+#	 span {button_to 'Confirm','', :confirm => 'This action cannot be undone. Are you sure you want to continue ?', :class => :submit }
+    	span {link_to 'Cancel', {:action => :edit_category_picture, :id => @picture } }
+  	end
+	end
+end

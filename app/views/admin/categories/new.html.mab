@@ -1,0 +1,15 @@
+h1 'Add Category'
+
+error_messages_for :category
+
+link_to 'Back', :controller => '/admin'
+#form_for :category, :url => {:controller => :categories, :action => :new} do |f|
+form_for :category do |f|
+  dl do
+    dd { f.label :name, "category" }
+    dd { f.text_field :name }
+  end
+  p.submit do 
+    span { f.submit "Create"  }
+  end
+end
