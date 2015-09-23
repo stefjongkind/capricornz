@@ -1,6 +1,7 @@
+div.top! {}
 div.dialog do
   link_to 'Back', admin_categories_path
-  link_to 'View category page', :controller => :public, :action => :show_category, :id => @category 
+  link_to 'Add image ↓', "#add_image" 
 	h1 {"#{@category.name}"}
   form_for :category, :url => admin_category_path(@category), :html => {:method => :put } do |category|
   	em {"Category Details"}
@@ -31,26 +32,28 @@ div.image_list do
 		end
 	end 
 end 
-div.dialog do
-	h2 {"Upload New Image"}
-  error_messages_for :picture 
-  form_for(:picture, :url => {:action => :create_mugshot, :id => @category }, :html => { :multipart => true }) do |f| 
-    div do
-      span {f.label :picture_filename, "File"}
-      br
-      span {f.file_field :uploaded_data, :size => '40' }
-    end
-    div do
-      span {f.label :experience_image, "Caption"}
-      br
-      span {f.text_area :description, :size => '40x5' }
-    end
-    div do
-      span {f.label :picture_position, "Sequence"}
-      br
-      span {f.text_field :position, :size=> '3'}
-    end
-    p.submit {submit_tag 'Upload'}
-  end 
+div.add_image! do
+  div.dialog do
+  	h2 {"Upload New Image"}
+    link_to 'Top ↑', "#top" 
+    error_messages_for :picture 
+    form_for(:picture, :url => {:action => :create_mugshot, :id => @category }, :html => { :multipart => true }) do |f| 
+      div do
+        span {f.label :picture_filename, "File"}
+        br
+        span {f.file_field :uploaded_data, :size => '40' }
+      end
+      div do
+        span {f.label :experience_image, "Caption"}
+        br
+        span {f.text_area :description, :size => '40x5' }
+      end
+      div do
+        span {f.label :picture_position, "Sequence"}
+        br
+        span {f.text_field :position, :size=> '3'}
+      end
+      p.submit {submit_tag 'Upload'}
+    end 
+  end
 end
-
