@@ -1,6 +1,6 @@
 div.contact! do
-  p {"Stef Jongkind"}
-  p {"Golden Bay - New Zealand"}
-  p {"Mobile: +64220963400"}
+#  p {"Stef Jongkind"}
+#  p {"Golden Bay - New Zealand"}
+#  p {"Mobile: +64 220963400"}
 end
 

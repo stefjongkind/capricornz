@@ -17,12 +17,6 @@ table {
 	padding:0;
 	margin:0;
 }
-table.admin td.content {
-	background-color:white;
-	border:1px solid gray;
-}
-
-
 
 em {
   
@@ -31,30 +25,23 @@ em {
 	font-weight: bold;
 }
 
-p.home_header {
-	font-size:12px;
-	color: orange;
-	font-weight: normal;
-	font-style:italic;
-	text-align:center;
-  
-}
-
 h1 {
 	font-family: sans-serif, helvetica, times;	
 	font-size:   36px;
 	text-align: center;
-	color: #ccc;
+	color: #E48127;
 	
 	
 }
+
 h2 {
 	
 	font-family: 'MS Gothic', helvetica, times;	
 	font-size:20px;
 	text-align: left;
-	color: #444;
+	color:#E4A039;
 }
+
 h3 {
   
   font-size:   11px;
@@ -84,6 +71,7 @@ fieldset {
 ul {
 	padding:5px;
 }
+
 li {
 	text-decoration:none;
 	list-style:none;
@@ -102,156 +90,73 @@ div#contact p {
 	color: #777;
 	
 }
-div#main_tab {
-	text-align: center; 
-}
-div#body_content {
-	margin-bottom: 20px; margin-left: auto; margin-right: auto; margin-top: 20px; overflow: hidden; position: relative; word-wrap: break-word;  text-align: left; width: 700px; 
-}
-
-div#inner_tab {
-	
-background: transparent url(/images/iweb/Creme_photobg_03-1.jpg) repeat scroll top left; width: 700px; 
-}
-
-div#header_layer {
-	
-height: 73px; margin-left: 0px; position: relative; width: 700px; z-index: 5;
-}
-
-div#banner {
-	margin:0;
-	margin-left:4em;
-	padding:0;
-	width:800px;
-	height:120px;
-	background:#d2e7ef;
-}
-
-div#header {
-	width:95%;
-}
 
 body#public  {
 	background-color: #fff;
 	padding:0;
-	padding-top:3em;
+	padding-top:2em;
 	margin:0;
 	margin-left:5em;
 	width:80%;
 }
 
-body#public h1 {
-	font-family:'MS Gothic';
-	font-size:48px;
-	margin-left:1em;
-	font-weight:normal;
+body#public div#title {
+	width:900px;
+	height:300px;
+	background:url('/images/DragonsTeeth.jpg');
+}
+body#public div#title .capricorn {
+	float:left;
+	padding-left:20%;
+	padding-right:20%;
+	margin:0;
+	text-align:center;
+	width:500px;
 }
 
-body#public h2 {
-	font-family:'MS Gothic';
-	font-size:28px;
-	margin-left:1em;
-	text-align: center;
-	color: #ccc;
-}
-#table {
-	background:#f49923;
-	margin:0;
-	margin-left:4em;
+div#content {
+	width:100%;
+	height:100%;
 	padding:0;
-	border:collapse;
-	width:800px;
+	margin:0;
+	margin-top:3em;
+	vertical-align:top;
 }
 
 table#main {
 	margin:0;
 	padding:0;
-	margin-left:4em;
 	border:0;
-	width:800px;
-	text-align:left;
-	font-size:10px;
-	background:#111;
+	width:auto;
 	
 }
 
-td.main {
-	width:600px;
-	height:470px;
-	padding:0;
-	background:#df2509;
-	margin:0;
-}
-
-tr.menu {
-	vertical-align:top;
-	margin:0;
-	padding:0;
-	border:0;
-}
-
-td.menu {
-	margin:0;
-	padding:0;
-	background:#000;
-	width:120px;
-	border:0;
-}
-
-div#category {
-	float:left;
-	width:100%;
-	padding:4em;
-/*	background:#ce991d; */
-	background:#fff;
-}
-div#category h1 {
-	font-family:"MS Gothic";
-	font-size:36px;
-	color:#999;
-	padding-left:100px;
-	text-align:left;
-}
-
-div#category h2 {
+table#main td {
+	width:274px;
+	height:auto;
+	font-size:14px;
+	line-height:18px;
 	font-family:'MS Gothic';
-	font-size:36px;
-	text-align: left;
-	margin-left:2em;
-	color: #444;
+	border-right:1px solid #eee;
+	padding:15px;
+	padding-top:0;
+	text-align:justify;
+}	
+
+table#main td.first {
+	padding-left:0;
 }
 
-div#menu_column {
-	padding:0;
-	margin:0;
-	margin-right:3px;
-	}
-	
-	
 ul#menu {
 	position:absolute;
-	width:180px;
-	top:2em;
-	left:1em;
+	top:3em;
+	right:380px;
 	padding:1em;
-	padding-top:2em;
 	padding-left:8px;
 	padding-bottom:1em;
 	text-align:left;
 	background:#fff;
 	color:#999;
-}
-
-div.subcat {
-	padding-bottom:0;
-	padding-top:0;
-}
-
-div.subcat ul {
-	padding-bottom:0;
-	padding-top:0;
-	
 }
 
 ul#menu h3 {
@@ -305,14 +210,6 @@ div.paginate a {
 }
 div.paginate a:visited { color: #fff; }
 div.paginate a:hover { color: orange }
-
-#content_admin {
-	width:980px;
-	background:white;
-	height:100%;
-	
-}
-
 
 
 div.image_list {
@@ -528,14 +425,6 @@ div.confirm {
 }
 
 
-div#content {
-	width:100%;
-	height:100%;
-	padding:0;
-	margin:0;
-	vertical-align:top;
-}
- 
 .menu_intro  {
 	color:#666;
 }

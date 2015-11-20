@@ -10,19 +10,21 @@ html do
    javascript_include_tag 'carousel'
    javascript_include_tag 'lightbox'
    title "Capricorn New Zealand | #{@page.title}  | #{@page.section.capitalize}"
-  	 link :rel => "Shortcut Icon", :href => "/images/waiata_icon.png", :type => "image/x-icon" 
+  	 link :rel => "Shortcut Icon", :href => "/images/CaprIcon.png", :type => "image/x-icon" 
   end
   body.public! do
-		h1 {"CAPRICORNZ.COM"}
-		h2 {"Photography"}
-		div.notice! flash[:notice]
-    ul.menu! do
-      li {link_to 'Home', {:action => :index}}
-      render :partial => 'category', :collection => Category.find_all_by_parent_id(nil)
-      li :class => cycle("odd", "even") do
-        span {link_to "Contact", {:controller => :public, :action => :contact}}
+    div.title! do
+      div.capricorn {image_tag('/images/Capricornz.png', :border => 0)}
+      div.capricorn {image_tag('/images/WebSolutions.png', :border => 0)}
+      div.capricorn {image_tag('/images/Webdevelopment.png', :border => 0)}
+      ul.menu! do
+        li {link_to 'Home', {:action => :index}}
+        li :class => cycle("odd", "even") do
+          span {link_to "Contact", {:controller => :public, :action => :contact}}
+        end
       end
     end
+		div.notice! flash[:notice]
 		div.content! {content_for_layout}
 	end
 end

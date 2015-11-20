@@ -1,17 +1,34 @@
-div.category! do
-  div.paginate {will_paginate @pictures}
-  div.image_list do
-    div.header! do
-      div.intro {@intro.description if @intro}     
-    end
-    @pictures.each do |picture|
-    	div.image do	  
-        li.grow {lightbox_link_to image_tag(picture.public_filename(:thumb), {:class=>"images", :border=>'0'}), picture.public_filename, :rel=>"lightbox[category]"}
-#      	div.comment {picture.description}
-    	end
+table.main! do
+  tr do
+    td.first {"Agile development allows us to account for new technology and priorities throughout your project. Instead of locking you into features, which could mean longer deadlines or more money later, we finalize deadlines and cost, leaving scope of work more flexible.<br><br>
+      Most organisations think in terms of web projects, but successful websites are developed through ongoing iterative and agile development. How can we reconcile this difference in thinking?<br><br>Agile web development is not a specific process, action, or a daylong exercise. Agile is a mindset, an attitude with which a project is undertaken.<br><br>
+     "} 
+    td {"  It means streamlining the project, taking away time-sucks, performing frequent sanity checks, and making sure that you’re not spending excessive time on things that don’t add value to the project.<br><br>
+       It’s about spending quality time on actions that add value to the website and make it better, and taking away time and energy from parts of the process that cause headaches.<br><br>
+       You want it fast, and you want it right. Using agile development, we get your project in front of your users sooner, so you make better decisions earlier — we're talking 6 weeks instead of 6 months.<br><br> "}
+    td do
+      span {image_tag('/images/map.gif', :border => 0)}
+      p {"&nbsp;"}
+      span {"Most of the services we enjoy on the Web are provided by web database applications. Web-based email, online shopping, forums and bulletin boards, corporate web sites, and sports and news portals are all database-driven. To build a modern web site, you need to develop a database application.<br><br>
+      "}
     end
   end
-  div.paginate {will_paginate @pictures}
 end
+
+  
+# =>   div.paginate {will_paginate @pictures}
+# =>   div.image_list do
+# =>     div.header! do
+# =>       div.intro {@intro.description if @intro}     
+# =>     end
+# =>     @pictures.each do |picture|
+# =>     	div.image do	  
+# =>         li.grow {lightbox_link_to image_tag(picture.public_filename(:thumb), {:class=>"images", :border=>'0'}), picture.public_filename, :rel=>"lightbox[category]"}
+# => #      	div.comment {picture.description}
+# =>     	end
+# =>     end
+# =>   end
+# =>   div.paginate {will_paginate @pictures}
+
 
 
