@@ -56,6 +56,12 @@ class PublicController < ActionController::Base
   
 
   private
+
+  def emails_are_valid?(emails)
+       regex = /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i
+       !!emails.match(regex)
+  end
+ 
   
   def set_default_pages
     @page ||= Page.new(
