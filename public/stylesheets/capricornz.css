@@ -38,7 +38,6 @@ h2 {
 	
 	font-family: 'MS Gothic', helvetica, times;	
 	font-size:20px;
-	text-align: left;
 	color:#E4A039;
 }
 
@@ -78,14 +77,14 @@ li {
 }
 
 div#contact {
-	padding-top:4em;
+	padding:0;
+	text-align: left;
 	
 }
 div#contact p {
 	font-family:'MS Gothic';
 	font-size:28px;
-	margin-left:1em;
-	text-align: center;
+	margin-left:0;
 	line-height:34px;
 	color: #777;
 	
@@ -108,7 +107,7 @@ body#public div#title {
 body#public div#title .capricorn {
 	float:left;
 	padding-left:20%;
-	padding-right:20%;
+	padding-right:10%;
 	margin:0;
 	text-align:center;
 	width:500px;
@@ -148,28 +147,11 @@ table#main td.first {
 }
 
 ul#menu {
-	position:absolute;
-	top:3em;
-	right:380px;
-	padding:1em;
-	padding-left:8px;
-	padding-bottom:1em;
+	position:relative;
+	top:1em;
+	right:3em;
 	text-align:left;
-	background:#fff;
 	color:#999;
-}
-
-ul#menu h3 {
-	font-family:"Papyrus";
-	color:#e1cca6;
-	width:100px;
-	font-size:16px;
-	padding: 3px	;
-	padding-left: 10px	;
-	margin:0;
-	margin-bottom:1em;
-	text-align:left;
-	border-bottom:1px solid #eee;
 }
 
 #menu li {
@@ -196,7 +178,19 @@ ul#menu h3 {
 
 #menu a:hover { color: #a43c17;  }
 
+div#enquiry_form {
+	width:300px;
+	height:400px;
+}
 
+div#enquiry_form form {
+	padding:1em;
+}
+
+div#enquiry_form ul dt {
+	text-align:left;
+	
+}
 div.paginate {
 	float:left;
 	width:95%;

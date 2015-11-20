@@ -1,6 +1,18 @@
 div.contact! do
-#  p {"Stef Jongkind"}
-#  p {"Golden Bay - New Zealand"}
-#  p {"Mobile: +64 220963400"}
+  div.enquiry_form! do
+    div {image_tag('/images/Enquiry.png', :border => 0)}
+    form_tag :url => { :action => :contact , :anchor => "errorExplanation" }  do 
+      h4 {"Please, fill in the following details"}
+      ul do
+        dt {label "Name"}
+      	span {text_field_tag :name, "", :value => (@name.blank? ? nil : @name), :size => "46"}
+        dt {label :email,  "Email"}
+        span {text_field_tag :email, "", :value => (@email.blank? ? nil : @email), :size => "46"}
+        dt {label :msg,  "Message"}
+        span {text_area_tag :msg, (@message.blank? ? nil : @message), :rows => 10, :cols => 40 }
+        p {submit_tag "Submit"}
+      end
+    end
+  end
 end
 
